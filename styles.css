@@ -81,6 +81,8 @@ img {
 /*======= CLASS CSS =======*/
 .section {
     padding: 1.5rem 0;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .section-title {
@@ -90,6 +92,15 @@ img {
     letter-spacing: 0.35 rem;
     text-align: center;
     margin-bottom: var(--mb-1);
+}
+
+.section-title-left {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    letter-spacing: 0.35 rem;
+    margin-bottom: var(--mb-1);
+    margin-top: 0;
 }
 
 /*======= LAYOUT =======*/
@@ -285,7 +296,7 @@ img {
 }
 
 .experience__description {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .experience__company {
@@ -298,15 +309,6 @@ img {
 
 .education__title {
     font-size: var(--h3-font-size);
-}
-
-.education__studies {
-    font-size: var(--small-font-size);
-    color: var(--title-color);
-}
-
-.education__year {
-    font-size: var(--small-font-size);
 }
 
 /*======= SKILLS AND LANGUAGES =======*/
@@ -334,6 +336,10 @@ img {
 
 .languages__content {
     gap: 2px;
+}
+
+.languages.section {
+    padding-bottom: 1rem;
 }
 
 /*======= CERTIFICATES =======*/
@@ -370,23 +376,19 @@ img {
 
 /*======= MEDIA QUERIES =======*/
 
-/* For small devices, menu two columns */
+/*======= For small devices, menu two columns =======*/
 @media screen and (max-width: 400px) {
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem 0.5rem;
-    }
+    }    
 }
 
-/* Classes modified for large screen size */
+/*======= Classes modified for large screen size =======*/
 @media screen and (min-width: 970px) {
     body {
-        margin: 3rem 0;
-    }
-
-    .bd-container {
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: 0.7rem;
+        margin-left: -1rem;    
     }
 
     .l-header,
@@ -396,7 +398,7 @@ img {
 
     .resume {
         display: grid;
-        width: 1200px;
+        width: 1240px;
         margin-left: 0.2rem;
         grid-template-columns: 0.7fr 1.2fr;
         background-color: var(--container-color);
@@ -431,6 +433,10 @@ img {
     .home__container {
         gap: 1.5rem;
     }
+
+    .skills.section {
+        margin-left: 2rem;
+    }
 }
 
 /*======= BUTTON DARK/LIGHT =======*/
@@ -457,6 +463,4 @@ body.dark-theme {
     --container-color-alt: #181616;
     --body-color: #2b2b2b;
 }
-
-
 
