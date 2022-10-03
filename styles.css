@@ -133,6 +133,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 5rem;
 }
 
 @media all and (max-device-width: 800px) {
@@ -142,6 +143,7 @@ img {
         left: 0;
         width: 100%;
         padding: 2rem 1.5rem;
+        margin-bottom: 2rem;
         background-color: var(--body-color);
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 1rem 1rem 0 0;
@@ -153,11 +155,13 @@ img {
 .nav__logo, .nav__toggle {
     color: var(--title-color);
     font-weight: var(--font-medium);
+    font-size: x-large;
 }
 
 .nav__toggle {
     font-size: 1.2rem;
     cursor: pointer;
+    font-size: x-large;
 }
 
 .nav__item {
@@ -183,7 +187,7 @@ img {
 }
 
 .nav__icon {
-    font-size: 1.2rem;
+    font-size: 3rem;
     margin-bottom: var(--mb-1);
 }
 
@@ -212,8 +216,8 @@ img {
 }
 
 .home__img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border: var(--text-color) solid 3px;
     border-radius: 10%;
     justify-self: center;
