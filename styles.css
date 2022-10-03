@@ -70,7 +70,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #0b0a0a;
+    color: var(--text-color);
 }
 
 img {
@@ -89,7 +89,7 @@ img {
     font-weight: var(--font-semi-bold);
     letter-spacing: 0.35 rem;
     text-align: center;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-1);
 }
 
 /*======= LAYOUT =======*/
@@ -201,9 +201,9 @@ img {
 }
 
 .home__img {
-    width: 120px;
-    height: 120px;
-    border: rgb(80, 79, 79) solid 3px;
+    width: 150px;
+    height: 150px;
+    border: var(--text-color) solid 3px;
     border-radius: 10%;
     justify-self: center;
     margin-bottom: var(--mb-1);
@@ -211,6 +211,7 @@ img {
 
 .home__title {
     font-size: var(--h1-font-size);
+    font-weight: bold;
 }
 
 .home__profession {
@@ -278,9 +279,17 @@ img {
 .experience__line {
     display: block;
     width: 2px;
-    height: 110%;
+    height: 102%;
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
+}
+
+.experience__description {
+    margin-bottom: 2rem;
+}
+
+.experience__company {
+    margin-top: -20px;
 }
 
 .education__data {
@@ -303,16 +312,18 @@ img {
 /*======= SKILLS AND LANGUAGES =======*/
 .skills__content {
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
+    gap: 20px;
 }
 
-.skills__name {
+.skills__name,
+.languages__name {
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-2);
 }
 
-.skills__circle {
+.skills__circle,
+.languages__circle {
     display: inline-block;
     width: 7px;
     height: 7px;
@@ -321,19 +332,131 @@ img {
     margin-right: 0.7rem;
 }
 
+.languages__content {
+    gap: 2px;
+}
 
+/*======= CERTIFICATES =======*/
+.certificate__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 2px;
+}
 
+/*======= SCROLL TOP =======*/
+.scrolltop {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    background-color: var(--container-color-alt);
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: 0.4s;
+    visibility: hidden; 
+}
 
+.scrolltop__icon {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
 
+.show-scroll {
+    visibility: visible;
+    bottom: 5rem;
+}
 
+/*======= MEDIA QUERIES =======*/
 
+/* For small devices, menu two columns */
+@media screen and (max-width: 400px) {
+    .nav__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 0.5rem;
+    }
+}
 
+/* Classes modified for large screen size */
+@media screen and (min-width: 970px) {
+    body {
+        margin: 3rem 0;
+    }
 
+    .bd-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    .l-header,
+    .scrolltop {
+        display: none;
+    }
 
+    .resume {
+        display: grid;
+        width: 1200px;
+        margin-left: 0.2rem;
+        grid-template-columns: 0.7fr 1.2fr;
+        background-color: var(--container-color);
+        box-shadow: 0 0 8px rgba(13, 12, 12, 15);
+    }
 
+    .resume__left {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        background-color: var(--container-color-alt);
+    }
 
+    .resume__right {
+        padding-right: 2rem;
+        padding-left: 1rem;
+    }
 
+    .home__img {
+        width: 220px;
+        height: 220px;
+        border: var(--text-color) solid 3px;
+        border-radius: 10%;
+        justify-self: center;
+        margin-bottom: var(--mb-1);
+    }
+
+    .section-title,
+    .profile__description {
+        text-align: initial;
+    }
+
+    .home__container {
+        gap: 1.5rem;
+    }
+}
+
+/*======= BUTTON DARK/LIGHT =======*/
+.change-theme {
+    position: absolute;
+    right: 0;
+    top: 2.2rem;
+    display: flex;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.change-theme:hover {
+    color: var(--title-color);
+}
+
+/*======= VARIABLES - DARK THEME =======*/
+body.dark-theme {
+    /* Colors */
+    --title-color: #f2f2f2;
+    --text-color: #bfbfbf;
+    --container-color: #212121;
+    --container-color-alt: #181616;
+    --body-color: #2b2b2b;
+}
 
 
 
