@@ -135,7 +135,7 @@ img {
     align-items: center;
 }
 
-@media screen and (max-width: 970px) {
+@media all and (max-device-width: 800px) {
     .nav__menu {
         position: fixed;
         bottom: -100%;
@@ -376,8 +376,8 @@ img {
 
 /*======= MEDIA QUERIES =======*/
 
-/*======= For small devices, menu two columns =======*/
-@media screen and (max-width: 400px) {
+/*======= For small devices (iPads/Tablets), menu two columns =======*/
+@media screen and (max-device-width: 320px) {
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem 0.5rem;
@@ -385,7 +385,7 @@ img {
 }
 
 /*======= Classes modified for large screen size =======*/
-@media screen and (min-width: 970px) {
+@media screen and (min-device-width: 800px) {
     body {
         margin-top: 0.7rem;
         margin-left: -1rem;    
