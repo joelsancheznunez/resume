@@ -154,14 +154,20 @@ img {
 
 .nav__logo, .nav__toggle {
     color: var(--title-color);
-    font-weight: var(--font-medium);
+    font-weight: lighter;
     font-size: x-large;
+    text-align: center;
+}
+
+.nav__logo {
+    text-align: center;
 }
 
 .nav__toggle {
     font-size: 1.2rem;
     cursor: pointer;
     font-size: x-large;
+    text-align: center;
 }
 
 .nav__item {
@@ -189,6 +195,10 @@ img {
 .nav__icon {
     font-size: 3rem;
     margin-bottom: var(--mb-1);
+}
+
+.nav.bd-container {
+    text-align: center;
 }
 
 /*======= SHOW MENU =======*/
