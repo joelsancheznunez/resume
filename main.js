@@ -1,7 +1,7 @@
 console.log("JavaScript Connected")
 
-//======= SHOW MENU =======//
-/* const showMenu = (toggleId, navId) =>{
+/* //======= SHOW MENU =======//
+ const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
     
@@ -13,7 +13,7 @@ console.log("JavaScript Connected")
         })
     }
 }
-showMenu('nav-toggle','nav-menu') */
+showMenu('nav-toggle','nav-menu')
 
 //======= REMOVE MOBILE MENU =======//
 const navLink = document.querySelectorAll('.nav__link')
@@ -23,7 +23,7 @@ function linkAction() {
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu')
 }
-navLink.forEach(n => n.addEventListener('click', linkAction))
+navLink.forEach(n => n.addEventListener('click', linkAction)) 
 
 //==================== ACTIVE LINK - SCROLL SECTION ====================//
 const sections = document.querySelectorAll('section[id]')
@@ -44,7 +44,7 @@ function scrollActive() {
         }
     })
 }
-window.addEventListener('scroll', scrollActive)
+window.addEventListener('scroll', scrollActive) */
 
 /*==================== SHOW SCROLL TOP ====================*/ 
 function scrollTop(){
