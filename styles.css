@@ -16,6 +16,8 @@
     /* Fonts and Typography */
     --body-font: 'Poppins', sans-serif;
     --h1-font-size: 1.5rem;
+    --h1-font-size-b: 2.2rem;
+    --h1-font-size-c: 2rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.940rem;
@@ -255,23 +257,23 @@ img {
 .home__information {
     display: flex;
     align-items: center;
-    font-size: var(--h1-font-size);
+    font-size: var(--h1-font-size-b);
 }
 
 .home__icon {
-    font-size: 1.5rem;
-    margin-right: 0.3rem;
+    font-size: 3.7rem;
+    margin-right: 1.2rem;
 }
 
 .home__button-download {
     display: inline-block;
-    border: 4px solid var(--text-color);
+    border: 5px solid var(--text-color);
     color: var(--title-color);
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
+    padding: 1.7rem 2rem;
+    border-radius: 25px;
     transition: 0.3s;
     font-weight: var(--font-medium);
-    font-size: var(--h1-font-size);
+    font-size: var(--h1-font-size-b);
     margin-top: var(--mb-2);
 }
 
@@ -300,33 +302,34 @@ img {
 .experience__rounder {
     position: relative;
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 25px;
+    height: 25px;
     background-color: var(--text-color-light);
     border-radius: 50%;
-    margin-top: 0.25rem;
+    margin-top: 0.7rem;
 }
 
 .experience__line {
     display: block;
     width: 2px;
-    height: 102%;
+    height: 100%;
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
+    margin-left: 3.5px;
 }
 
 .experience__title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size-b);
 }
 
 .experience__description {
     margin-bottom: 1.5rem;
-    font-size: var(--smaller-font-size);
+    font-size: var(--h1-font-size-b);
 }
 
 .experience__company {
     margin-top: -20px;
-    font-size: var(--h1-font-size);
+    font-size: var(--h1-font-size-b);
 }
 
 .education__data {
@@ -334,15 +337,15 @@ img {
 }
 
 .education__title {
-    font-size: var(--small-font-size);
+    font-size: var(--h1-font-size-b);
 }
 
 .education__studies {
-    font-size: var(--small-font-size);
+    font-size: var(--h1-font-size-b);
 }
 
 .education__year {
-    font-size: var(--small-font-size);
+    font-size: var(--h1-font-size-b);
 }
 
 /*======= SKILLS AND LANGUAGES =======*/
@@ -359,11 +362,15 @@ img {
     font-size: var(--h1-font-size);
 }
 
+.skills__name {
+    font-size: var(--h1-font-size-c);
+}
+
 .skills__circle,
 .languages__circle {
     display: inline-block;
-    width: 7px;
-    height: 7px;
+    width: 10px;
+    height: 10px;
     background-color: var(--text-color);
     border-radius: 50%;
     margin-right: 0.8rem;
@@ -375,6 +382,10 @@ img {
 
 .languages.section {
     padding-bottom: 1rem;
+}
+
+.languages__name {
+    font-size: var(--h1-font-size-b);
 }
 
 /*======= CERTIFICATES =======*/
@@ -404,7 +415,7 @@ img {
 }
 
 .scrolltop__icon {
-    font-size: 3.2rem;
+    font-size: 5.2rem;
     margin-bottom: 0.1rem;
     color: var(--text-color);
 }
@@ -486,6 +497,17 @@ body.dark-theme {
         margin-top: var(--mb-2);
     }
 
+    .home__icon {
+        font-size: 2rem;
+        margin-right: 0.7rem;
+    }
+
+    .home__information {
+    display: flex;
+    align-items: center;
+    font-size: var(--h1-font-size-b);
+    }
+
     .experience__title {
         font-size: var(--h3-font-size);
     }
@@ -498,6 +520,25 @@ body.dark-theme {
     .experience__description {
         margin-bottom: 1.5rem;
         font-size: var(--normal-font-size);
+    }
+
+    .experience__rounder {
+        position: relative;
+        display: block;
+        width: 14px;
+        height: 14px;
+        background-color: var(--text-color-light);
+        border-radius: 50%;
+        margin-top: 0.2rem;
+        margin-left: 0.3rem;
+    }
+    
+    .experience__line {
+        display: block;
+        width: 2px;
+        height: 103%;
+        background-color: var(--text-color-light);
+        transform: translate(7px, 0);
     }
     
     .education__title {
@@ -530,6 +571,16 @@ body.dark-theme {
     align-items: center;
     margin-bottom: var(--mb-2);
     font-size: var(--h3-font-size);
+    }
+
+    .skills__circle,
+    .languages__circle {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    margin-right: 0.8rem;
     }
 
     .l-header,
