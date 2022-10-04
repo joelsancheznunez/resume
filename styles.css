@@ -283,6 +283,7 @@ img {
 /*======= ABOUT =======*/
 .profile__description {
     text-align: center;
+    font-size: var(--smaller-font-size);
 }
 
 /*======= EXPERIENCE AND EDUCATION =======*/
@@ -315,12 +316,12 @@ img {
 }
 
 .experience__title {
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
 }
 
 .experience__description {
     margin-bottom: 1.5rem;
-    font-size: var(--h1-font-size);
+    font-size: var(--smaller-font-size);
 }
 
 .experience__company {
@@ -333,15 +334,15 @@ img {
 }
 
 .education__title {
-    font-size: var(--h1-font-size);
+    font-size: var(--small-font-size);
 }
 
 .education__studies {
-    font-size: var(--h1-font-size);
+    font-size: var(--small-font-size);
 }
 
 .education__year {
-    font-size: var(--h1-font-size);
+    font-size: var(--small-font-size);
 }
 
 /*======= SKILLS AND LANGUAGES =======*/
@@ -365,7 +366,7 @@ img {
     height: 7px;
     background-color: var(--text-color);
     border-radius: 50%;
-    margin-right: 0.7rem;
+    margin-right: 0.8rem;
 }
 
 .languages__content {
@@ -378,8 +379,12 @@ img {
 
 /*======= CERTIFICATES =======*/
 .certificate__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--smaller-font-size);
     margin-bottom: 2px;
+}
+
+.certificate__description {
+    font-size: var(--smaller-font-size);
 }
 
 /*======= SCROLL TOP =======*/
@@ -489,7 +494,7 @@ body.dark-theme {
         margin-top: -20px;
         font-size: var(--h3-font-size);
     }
-
+    
     .experience__description {
         margin-bottom: 1.5rem;
         font-size: var(--normal-font-size);
@@ -500,13 +505,25 @@ body.dark-theme {
     }
     
     .education__studies {
-        font-size: var(--normal-font-size);
+        font-size: var(--h3-font-size);
     }
     
     .education__year {
-        font-size: var(--normal-font-size);
+        font-size: var(--h3-font-size);
     }
 
+    .languages__name {
+        font-size: var(--h3-font-size);
+    }
+
+    .certificate__title {
+        font-size: var(--h3-font-size);
+    }
+
+    .certificate__description {
+        font-size: var(--h3-font-size);
+    }
+    
     .skills__name,
     .languages__name {
     display: flex;
@@ -543,7 +560,7 @@ body.dark-theme {
     .home__information {
         display: flex;
         align-items: center;
-        font-size: var(--small-font-size);
+        font-size: var(--normal-font-size);
     }
 
     .home__img {
@@ -558,6 +575,10 @@ body.dark-theme {
     .section-title,
     .profile__description {
         text-align: initial;
+    }
+
+    .profile__description {
+        font-size: var(--normal-font-size);
     }
 
     .home__container {
