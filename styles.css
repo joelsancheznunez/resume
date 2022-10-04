@@ -306,13 +306,32 @@ img {
     height: 25px;
     background-color: var(--text-color-light);
     border-radius: 50%;
-    margin-top: 0.7rem;
+    margin-top: 1.5rem;
+}
+
+.experience__start {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: var(--text-color-light);
+    border-radius: 10%;
+    margin-top: 0;
 }
 
 .experience__line {
     display: block;
     width: 2px;
     height: 100%;
+    background-color: var(--text-color-light);
+    transform: translate(7px, 0);
+    margin-left: 3.5px;
+}
+
+.experience__line-2 {
+    display: block;
+    width: 2px;
+    height: 93%;
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
     margin-left: 3.5px;
@@ -539,6 +558,25 @@ body.dark-theme {
         height: 103%;
         background-color: var(--text-color-light);
         transform: translate(7px, 0);
+    }
+
+    .experience__line-2 {
+        display: block;
+        width: 2px;
+        height: 85%;
+        background-color: var(--text-color-light);
+        transform: translate(7px, 0);
+        margin-left: 3.5px;
+    }
+
+    .experience__start {
+        position: relative;
+        display: block;
+        width: 14px;
+        height: 14px;
+        background-color: var(--text-color-light);
+        border-radius: 10%;
+        margin-left: 0.3rem;
     }
     
     .education__title {
