@@ -309,29 +309,10 @@ img {
     margin-top: 1.5rem;
 }
 
-.experience__start {
-    position: relative;
-    display: block;
-    width: 25px;
-    height: 25px;
-    background-color: var(--text-color-light);
-    border-radius: 10%;
-    margin-top: 0;
-}
-
 .experience__line {
     display: block;
     width: 2px;
     height: 100%;
-    background-color: var(--text-color-light);
-    transform: translate(7px, 0);
-    margin-left: 3.5px;
-}
-
-.experience__line-2 {
-    display: block;
-    width: 2px;
-    height: 93%;
     background-color: var(--text-color-light);
     transform: translate(7px, 0);
     margin-left: 3.5px;
@@ -343,12 +324,12 @@ img {
 
 .experience__description {
     margin-bottom: 1.5rem;
-    font-size: var(--h1-font-size-b);
+    font-size: var(--h1-font-size);
 }
 
 .experience__company {
     margin-top: -20px;
-    font-size: var(--h1-font-size-b);
+    font-size: var(--h1-font-size);
 }
 
 .education__data {
@@ -356,15 +337,15 @@ img {
 }
 
 .education__title {
-    font-size: var(--h1-font-size-b);
+    font-size: var(--h1-font-size);
 }
 
 .education__studies {
-    font-size: var(--h1-font-size-b);
+    font-size: var(--h1-font-size);
 }
 
 .education__year {
-    font-size: var(--h1-font-size-b);
+    font-size: var(--h1-font-size);
 }
 
 /*======= SKILLS AND LANGUAGES =======*/
@@ -448,11 +429,11 @@ img {
 /*======= BUTTON DARK/LIGHT =======*/
 .change-theme {
     position: absolute;
-    right: 2rem;
+    right: 2.2rem;
     top: 2.5rem;
     display: flex;
     color: var(--text-color);
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
 }
 
@@ -544,39 +525,20 @@ body.dark-theme {
     .experience__rounder {
         position: relative;
         display: block;
-        width: 14px;
-        height: 14px;
+        width: 16px;
+        height: 16px;
         background-color: var(--text-color-light);
         border-radius: 50%;
-        margin-top: 0.2rem;
-        margin-left: 0.3rem;
+        margin-top: 0.3rem;
+        margin-left: 0.25rem;
     }
     
     .experience__line {
         display: block;
-        width: 2px;
+        width: 2.5px;
         height: 103%;
         background-color: var(--text-color-light);
         transform: translate(7px, 0);
-    }
-
-    .experience__line-2 {
-        display: block;
-        width: 2px;
-        height: 85%;
-        background-color: var(--text-color-light);
-        transform: translate(7px, 0);
-        margin-left: 3.5px;
-    }
-
-    .experience__start {
-        position: relative;
-        display: block;
-        width: 14px;
-        height: 14px;
-        background-color: var(--text-color-light);
-        border-radius: 10%;
-        margin-left: 0.3rem;
     }
     
     .education__title {
@@ -614,8 +576,8 @@ body.dark-theme {
     .skills__circle,
     .languages__circle {
     display: inline-block;
-    width: 7px;
-    height: 7px;
+    width: 9px;
+    height: 9px;
     background-color: var(--text-color);
     border-radius: 50%;
     margin-right: 0.8rem;
