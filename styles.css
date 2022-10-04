@@ -241,7 +241,7 @@ img {
 .home__information {
     display: flex;
     align-items: center;
-    font-size: var(--small-font-size);
+    font-size: var(--h1-font-size);
 }
 
 .home__icon {
@@ -251,12 +251,13 @@ img {
 
 .home__button-download {
     display: inline-block;
-    border: 2px solid var(--text-color);
+    border: 4px solid var(--text-color);
     color: var(--title-color);
     padding: 0.5rem 1rem;
     border-radius: 10px;
     transition: 0.3s;
     font-weight: var(--font-medium);
+    font-size: var(--h1-font-size);
     margin-top: var(--mb-2);
 }
 
@@ -299,12 +300,18 @@ img {
     transform: translate(7px, 0);
 }
 
+.experience__title {
+    font-size: var(--h1-font-size);
+}
+
 .experience__description {
     margin-bottom: 1.5rem;
+    font-size: var(--h1-font-size);
 }
 
 .experience__company {
     margin-top: -20px;
+    font-size: var(--h1-font-size);
 }
 
 .education__data {
@@ -312,7 +319,15 @@ img {
 }
 
 .education__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h1-font-size);
+}
+
+.education__studies {
+    font-size: var(--h1-font-size);
+}
+
+.education__year {
+    font-size: var(--h1-font-size);
 }
 
 /*======= SKILLS AND LANGUAGES =======*/
@@ -326,6 +341,7 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-2);
+    font-size: var(--h1-font-size);
 }
 
 .skills__circle,
@@ -362,20 +378,22 @@ img {
     align-items: center;
     padding: 0.3rem;
     background-color: var(--container-color-alt);
-    border-radius: 0.4rem;
+    border-radius: 0.7rem;
     z-index: var(--z-tooltip);
     transition: 0.4s;
     visibility: hidden; 
 }
 
 .scrolltop__icon {
-    font-size: 1.5rem;
+    font-size: 3.2rem;
+    margin-bottom: 0.1rem;
     color: var(--text-color);
 }
 
 .show-scroll {
     visibility: visible;
-    bottom: 5rem;
+    bottom: 6rem;
+    right: 1rem;
 }
 
 /*======= MEDIA QUERIES =======*/
@@ -395,6 +413,52 @@ img {
         margin-left: -1rem;    
     }
 
+    .home__button-download {
+        display: inline-block;
+        border: 2px solid var(--text-color);
+        color: var(--title-color);
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        transition: 0.3s;
+        font-weight: var(--font-medium);
+        font-size: var(--h3-font-size);
+        margin-top: var(--mb-2);
+    }
+
+    .experience__title {
+        font-size: var(--h3-font-size);
+    }
+    
+    .experience__company {
+        margin-top: -20px;
+        font-size: var(--h3-font-size);
+    }
+
+    .experience__description {
+        margin-bottom: 1.5rem;
+        font-size: var(--normal-font-size);
+    }
+    
+    .education__title {
+        font-size: var(--h3-font-size);
+    }
+    
+    .education__studies {
+        font-size: var(--normal-font-size);
+    }
+    
+    .education__year {
+        font-size: var(--normal-font-size);
+    }
+
+    .skills__name,
+    .languages__name {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2);
+    font-size: var(--h3-font-size);
+    }
+
     .l-header,
     .scrolltop {
         display: none;
@@ -402,7 +466,7 @@ img {
 
     .resume {
         display: grid;
-        width: 1240px;
+        width: 1240px;        
         margin-left: 0.2rem;
         grid-template-columns: 0.7fr 1.2fr;
         background-color: var(--container-color);
@@ -418,6 +482,12 @@ img {
     .resume__right {
         padding-right: 2rem;
         padding-left: 1rem;
+    }
+
+    .home__information {
+        display: flex;
+        align-items: center;
+        font-size: var(--small-font-size);
     }
 
     .home__img {
