@@ -763,6 +763,8 @@ body.dark-theme {
     .section-title-experience {
         margin-top: 1.2rem;
         margin-bottom: 1rem;
+        margin-left: 1rem;
+        font-weight: bolder;
     }
 
     .profile__description {
