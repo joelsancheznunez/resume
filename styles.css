@@ -100,6 +100,10 @@ img {
     margin-bottom: var(--mb-1);
 }
 
+.section-title-experience {
+    margin-bottom: 1.2rem;
+}
+
 .section-title-left {
     font-size: var(--h2-font-size);
     color: var(--title-color);
@@ -390,6 +394,7 @@ img {
 
 .languages__name {
     font-size: var(--h1-font-size-b);
+    margin-bottom: 2px;
 }
 
 /*======= CERTIFICATES AND RECOGNITIONS=======*/
@@ -548,7 +553,7 @@ img {
     top: 2.5rem;
     display: flex;
     color: var(--text-color);
-    font-size: 3rem;
+    font-size: 3.7rem;
     cursor: pointer;
 }
 
@@ -568,7 +573,7 @@ body.dark-theme {
 
 /*======= MEDIA QUERIES =======*/
 
-/*======= For small devices (iPads/Tablets), menu two columns =======*/
+/*==================================== For small devices (iPads/Tablets), menu two columns =======*/
 @media screen and (max-device-width: 320px) {
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
@@ -579,7 +584,7 @@ body.dark-theme {
     }
 }
 
-/*======= Classes modified for large screen size =======*/
+/*================================================== Classes modified for large screen size =======*/
 @media screen and (min-device-width: 800px) {
     body {
         margin-top: 0.7rem;
@@ -671,31 +676,32 @@ body.dark-theme {
         font-size: var(--h3-font-size);
     }
 
-    .languages__name {
-        font-size: var(--h3-font-size);
-    }
-
     .certificate__title {
         font-size: var(--h3-font-size);
     }
-
+    
     .certificate__description {
         font-size: var(--h3-font-size);
     }
     
     .skills__name,
     .languages__name {
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--mb-2);
-    font-size: var(--h3-font-size);
+        display: flex;
+        align-items: center;
+        margin-bottom: var(--mb-2);
+        font-size: var(--h3-font-size);
+    }
+    
+    .languages__name {
+        font-size: var(--h3-font-size);
+        margin-bottom: 0.5rem;
     }
 
     .skills__circle,
     .languages__circle {
     display: inline-block;
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     background-color: var(--text-color);
     border-radius: 50%;
     margin-right: 0.8rem;
@@ -746,8 +752,17 @@ body.dark-theme {
         text-align: initial;
     }
 
+    .section-title {
+        font-size: 22.56px;
+    }
+
+    .section-title-left {
+        font-size: 22.56px;
+    }
+
     .section-title-experience {
         margin-top: 1.2rem;
+        margin-bottom: 1rem;
     }
 
     .profile__description {
