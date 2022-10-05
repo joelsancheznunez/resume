@@ -1,6 +1,6 @@
 console.log("JavaScript Connected")
 
-/* //======= SHOW MENU =======//
+//======= SHOW MENU =======//
  const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId)
@@ -44,7 +44,7 @@ function scrollActive() {
         }
     })
 }
-window.addEventListener('scroll', scrollActive) */
+window.addEventListener('scroll', scrollActive)
 
 /*==================== SHOW SCROLL TOP ====================*/ 
 function scrollTop(){

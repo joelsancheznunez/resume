@@ -19,6 +19,7 @@
     --h1-font-size-b: 2.2rem;
     --h1-font-size-c: 2rem;
     --h2-font-size: 1.25rem;
+    --h2-font-size-b: 1.35rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.940rem;
     --small-font-size: 0.875rem;
@@ -98,10 +99,15 @@ img {
     letter-spacing: 0.35 rem;
     text-align: center;
     margin-bottom: var(--mb-1);
+    text-transform: uppercase;
 }
 
 .section-title-experience {
     margin-bottom: 1.2rem;
+    margin-left: 1.2rem;
+    font-size: var(--h1-font-size);
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 
 .section-title-left {
@@ -111,6 +117,7 @@ img {
     letter-spacing: 0.35 rem;
     margin-bottom: var(--mb-1);
     margin-top: 0;
+    text-transform: uppercase;
 }
 
 /*======= LAYOUT =======*/
@@ -143,7 +150,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
+    height: 10rem;
 }
 
 @media all and (max-device-width: 800px) {
@@ -151,9 +158,9 @@ img {
         position: fixed;
         bottom: -100%;
         left: 0;
-        width: 100%;
+        width: 85%;
         padding: 2rem 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 6.5rem;
         background-color: var(--body-color);
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 1rem 1rem 0 0;
@@ -171,12 +178,13 @@ img {
 
 .nav__logo {
     text-align: center;
+    font-size: var(--h1-font-size-b);
 }
 
 .nav__toggle {
-    font-size: 1.2rem;
+    font-size: 4.5rem;
+    margin-right: 2rem;
     cursor: pointer;
-    font-size: x-large;
     text-align: center;
 }
 
@@ -193,7 +201,7 @@ img {
 .nav__link {
     display: flex;
     flex-direction: column;
-    font-size: var(--smaller-font-size);
+    font-size: var(--h1-font-size);
     font-weight: var(--font-medium);
     color: var(--text-color-light);
 }
@@ -203,7 +211,7 @@ img {
 }
 
 .nav__icon {
-    font-size: 3rem;
+    font-size: 4.2rem;
     margin-bottom: var(--mb-1);
 }
 
@@ -327,12 +335,12 @@ img {
 }
 
 .experience__title {
-    font-size: var(--h1-font-size-b);
+    font-size: var(--h1-font-size);
 }
 
 .experience__description {
     margin-bottom: 1.5rem;
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
 }
 
 .experience__company {
@@ -345,15 +353,15 @@ img {
 }
 
 .education__title {
-    font-size: var(--h1-font-size);
+    font-size: var(--h1-font-size-c);
 }
 
 .education__studies {
-    font-size: var(--h1-font-size);
+    font-size: var(--h1-font-size-c);
 }
 
 .education__year {
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
 }
 
 /*======= SKILLS AND LANGUAGES =======*/
@@ -403,12 +411,12 @@ img {
     margin-bottom: 2px;
 }
 
-.recognition.section {
-    padding-bottom: 0;
-}
-
 .certificate__description {
     font-size: var(--smaller-font-size);
+}
+
+.recognition.section {
+    padding-bottom: 0;
 }
 
 .recognition__title {
@@ -542,8 +550,8 @@ img {
 
 .show-scroll {
     visibility: visible;
-    bottom: 6rem;
-    right: 1rem;
+    bottom: 12rem;
+    right: 2.5rem;
 }
 
 /*======= BUTTON DARK/LIGHT =======*/
@@ -596,7 +604,9 @@ body.dark-theme {
         text-align: center;
         margin-top: 10rem;
         margin-bottom: 1.5rem;
+        font-size: medium;
     }
+    
     /* Theme Button */
     .change-theme {
         position: absolute;
@@ -606,6 +616,16 @@ body.dark-theme {
         color: var(--text-color);
         font-size: 1.7rem;
         cursor: pointer;
+    }
+
+    .home__title {
+        font-size: var(--h1-font-size-c);
+        font-weight: bold;
+    }
+
+    .home__profession {
+        font-size: var(--h3-font-size);
+        font-weight: lighter;
     }
 
     .home__button-download {
@@ -666,22 +686,27 @@ body.dark-theme {
     
     .education__title {
         font-size: var(--h3-font-size);
+        font-style: normal;
     }
     
     .education__studies {
         font-size: var(--h3-font-size);
+        font-style: normal;
     }
     
     .education__year {
         font-size: var(--h3-font-size);
+        font-style: normal;
     }
 
     .certificate__title {
         font-size: var(--h3-font-size);
+        font-style: normal;
     }
     
     .certificate__description {
         font-size: var(--h3-font-size);
+        font-style: normal;
     }
     
     .skills__name,
@@ -694,6 +719,7 @@ body.dark-theme {
     
     .languages__name {
         font-size: var(--h3-font-size);
+        font-style: normal;
         margin-bottom: 0.5rem;
     }
 
@@ -753,18 +779,18 @@ body.dark-theme {
     }
 
     .section-title {
-        font-size: 22.56px;
+        font-size: var(--h2-font-size-b);
     }
 
     .section-title-left {
-        font-size: 22.56px;
+        font-size: var(--h2-font-size-b);
     }
 
     .section-title-experience {
         margin-top: 1.2rem;
         margin-bottom: 1rem;
         margin-left: 1rem;
-        font-weight: bolder;
+        font-size: var(--h2-font-size-b);
     }
 
     .profile__description {
@@ -790,7 +816,7 @@ body.dark-theme {
     /* RECOGNITION MODAL IMAGES */
     #myImg,
     #myImg2 {
-        border-radius: 10px;
+        border-radius: 5px;
         border: var(--title-color) solid 1.5px;
         cursor: pointer;
         transition: 0.3s;
