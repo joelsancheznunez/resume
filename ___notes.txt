@@ -119,6 +119,7 @@ ADD Screenshots Recognitions
 
 ADD JOB DESCRIPTION:
 Mentoring new team members while building the new team in Buenos Aires
+Build immigration processes and flowcharts, connecting those processes between the IT teams and Immigration teams
 Agile all by myself in my team to build solutions and automations (este es solo como comment para entrevistas)
 Creation of mind maps for end to end processes designed to visualize and provide detailed orientation to employees on relocation and hiring managers abroad using tools such as MindMeister
 Run, analyze and manage weekly reports for workforce analytics and immigration data related to all foreign national employees.

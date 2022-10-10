@@ -1,0 +1,14 @@
+/*=================================== For Bigger Screens (>=1600px) */
+@media screen and (min-device-width: 1600px) {
+    .resume {
+        width: 1600px;
+    }
+
+    .footer {
+        visibility: visible;
+        text-align: center;
+        margin-top: 12rem;
+        margin-bottom: 1.5rem;
+        font-size: medium;
+    }
+}
