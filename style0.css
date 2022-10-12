@@ -529,7 +529,7 @@ img {
 
 /*======================================================= HIGHLIGHTS */
 .highlights__content.bd-grid {
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
 }
 
 .highlights__name {
@@ -570,7 +570,7 @@ img {
 
 .show-scroll {
     visibility: visible;
-    bottom: 12rem;
+    bottom: 11rem;
     right: 2.5rem;
 }
 

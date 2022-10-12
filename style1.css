@@ -1,6 +1,44 @@
 /*======= MEDIA QUERIES =======*/
 
-/*==================================== For small devices (iPads/Tablets), menu two columns =======*/
+/*======= VARIABLES CSS =======*/
+:root {
+    --header-height: 3rem;
+
+    /* Colors */
+    --title-color: #0b0a0a;
+    --text-color: #403a3a;
+    --text-color-light: #707070;
+    --container-color: #fafafa;
+    --container-color-alt: #f0efef;
+    --body-color: #fcfcfc;
+
+    /* Fonts and Typography */
+    --body-font: 'Poppins', sans-serif;
+    --h1-font-size: 1.5rem;
+    --h1-font-size-b: 2.2rem;
+    --h1-font-size-c: 2rem;
+    --h2-font-size: 1.25rem;
+    --h2-font-size-b: 1.35rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.940rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.812rem;
+
+    /* Font Weight */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* Margins */
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+
+    /* Z Index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*==================================== For small devices (iPads/Tablets), menu two columns */
 @media screen and (max-device-width: 320px) {
     .nav__list {
         grid-template-columns: repeat(2, 1fr);
@@ -11,19 +49,20 @@
     }
 }
 
-/*=========================== Classes modified for large screen size */
+/*==================================== Classes modified for large screen size */
 @media screen and (min-device-width: 600px) {
     body {
         margin-top: 0.7rem;
         margin-left: -1rem;    
     }
 
-    .footer {
+    .footer { /* Laptop 14" */
         visibility: visible;
         text-align: center;
-        margin-top: 35rem;
-        margin-bottom: 1.5rem;
-        font-size: medium;
+        margin-top: 30rem;
+        margin-bottom: 1rem;
+        font-size: large;
+        font-weight: lighter;
     }
     
     /* Theme Button */
