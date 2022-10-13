@@ -110,6 +110,7 @@ JPMC: UIPath for web scrapping and visa application forms. Reporting and Immigra
 
 TITLE IN LINKEDIN:
 Immigration & Mobility Data Analyst / Data Analytics and Process Automation
+Immigration & Mobility Specialist | Consultant | Data Analyst
 
 BIO:
 Recently moved to Costa Rica
@@ -117,7 +118,8 @@ Recently moved to Costa Rica
 ADD Screenshots Recognitions
 "a few words from my managers"
 
-ADD JOB DESCRIPTION:
+UPDATES --- ADD JOB DESCRIPTION:
+Strong Analytical Skills
 Mentoring new team members while building the new team in Buenos Aires
 Build immigration processes and flowcharts, connecting those processes between the IT teams and Immigration teams
 Agile all by myself in my team to build solutions and automations (este es solo como comment para entrevistas)
@@ -125,3 +127,28 @@ Creation of mind maps for end to end processes designed to visualize and provide
 Run, analyze and manage weekly reports for workforce analytics and immigration data related to all foreign national employees.
 Automation to create, edit and delete profiles in our tools in order to clean, maintain and update our client database and reports 
 Organize and manage foreign national employees database in Ad-hoc tools in order to provide metrics and budget estimates to hiring managers in different projects 
+
+HIGHLIGHTS
+Created a report combining data from different teams and areas to determine and connect the business needs with the WFA, external candidates and talent pool
+Created dashboard to measure the volume of joiners and termination cases for foreign national employees by work location, visa type, position, dependents, etc
+
+FREELANCE (UpWork, Fiverr, etc)
+"I will create reports, organize, analyze and manage your data"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
