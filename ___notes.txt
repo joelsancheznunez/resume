@@ -103,7 +103,7 @@ Strategic Planning
 ======================================================================================================================================
 
 CV UPDATES 2022
-ACCENTURE: Build automations in Python with Selenium and PANDAS
+ACCENTURE: Build automation scripts in Python with Selenium and PANDAS
 GLOBANT: Creating RPA automations in UIPath to complete forms and submit visa applications.
 Internal Immigration site to help employees traveling abroad for business purposes and relocation
 JPMC: UIPath for web scrapping and visa application forms. Reporting and Immigration data analytics
@@ -138,12 +138,31 @@ Created dashboard to measure the volume of joiners and termination cases for for
 FREELANCE (UpWork, Fiverr, etc)
 "I will create reports, organize, analyze and manage your data"
 
+LATEST UPDATES FROM NOTION NOTES
+
+- Understand the business needs, have the right tools, the expertise and a team working together, then the magic just happens.
+- Provide a well detailed, oversimplified and accurate data with all the information the business needs related to foreign national employees working abroad.
+- Test and benchmark our Ad-hoc immigration tools during development sprints
+- Running and constantly improving SQL queries for workforce analytics, recruiting and immigration team
+- Analytical Mindset
+- Creating and building scalable designs for HCM and Immigration reports
+- Using tools and learning new technologies to make my daily work easier, faster and more efficient
 
 
+TIPS FOR JOB INTERVIEW
 
+- Worked hand in hand with the IT team to develop Immigration tools
+- Participated on the most important sprints during the development and creation of our tools
+- That´s the reason I wanted to learn the IT team ways to handle these processes
+- I was acting kind of the PO (it was not too formal as the client was internal)
+- I was the link between the development team and Immigration team, so I was involved in most of the process, 
+testing and making sure the tools were compliant and compelling to what we needed. I tested the whole tool
+- We developed a CRUD tool dedicated only to Immigration, so we can cross that data with the rest of the Workforce 
+in order to find potential fits and FN candidates from talent pool, outside or intracompany transfers.
 
-
-
+EN ENERO:
+1. CREAR UN NUEVO REPOSITORIO "myresume" SOLO CON LOS 3 FILES PRINCIPALES
+2. ACTIVAR LINKEDIN PRO
 
 
 
