@@ -353,15 +353,17 @@ img {
 }
 
 .education__title {
-    font-size: var(--h1-font-size-c);
+    font-size: xx-large;
+    font-weight: normal;
+    color: rgb(30, 146, 224);
 }
 
 .education__studies {
-    font-size: var(--h1-font-size-c);
+    font-size: x-large;
 }
 
 .education__year {
-    font-size: var(--h2-font-size);
+    font-size: x-large;
 }
 
 /*======================================================= SKILLS AND LANGUAGES */
