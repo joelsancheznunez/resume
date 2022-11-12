@@ -161,11 +161,13 @@
     .certificate__title {
         font-size: var(--h3-font-size);
         font-style: normal;
+        font-weight: var(--font-medium);
     }
 
     .certificate__title:hover {
-        color: rgb(23, 174, 174);
-        transition: 0.3s;
+        color: rgb(27, 199, 199);
+        text-shadow: 0.5px 0.5px 0.5px rgb(27, 199, 199);
+        transition: 0.2s;
     }
     
     .certificate__description {
