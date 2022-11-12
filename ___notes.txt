@@ -162,7 +162,7 @@ testing and making sure the tools were compliant and compelling to what we neede
 in order to find potential fits and FN candidates from talent pool, outside or intracompany transfers.
 
 EN ENERO:
-1. CREAR UN NUEVO REPOSITORIO "myresume" SOLO CON LOS 3 FILES PRINCIPALES
+1. CREAR UN NUEVO REPOSITORIO "myresume" SOLO CON LOS FILES PRINCIPALES -- No incluir Notes
 2. ACTIVAR LINKEDIN PRO
 
 

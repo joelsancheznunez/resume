@@ -160,12 +160,12 @@ img {
         left: 2px;
         width: 85%;
         padding: 2rem 1.5rem;
-        margin-bottom: 6.5rem;
+        margin-bottom: 5.5rem;
         background-color: var(--container-color-alt);
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 1rem 1rem 1rem 1rem;
         z-index: var(--z-fixed);
-        transition: 0.3s;
+        transition: 0.5s;
     }
 }
 
