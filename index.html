@@ -4,9 +4,11 @@
     <link rel="stylesheet" href="style0.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style-popup-menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> <!--Favicon-->
     <script src="main.js" defer></script>
+    <script src="popup-menu.js" defer></script>
     <title>Joel Sánchez Núñez</title>
 </head>
 <body>
@@ -57,7 +59,7 @@
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i> <!-- BUTTON: Main Menu -->
+                <i class='bx bx-grid-alt'></i> <!-- BUTTON: Main Menu -->
             </div>
         </nav>
     </header>
@@ -205,35 +207,45 @@
                         <div class="certificate__container bd-grid">
                             <div class="certificate__content">
                                 <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:7efb0e4b-edf4-4288-9fc7-034c9e3136f9" target="_blank">
-                                    <h3 class="certificate__title">Web Developement (HTML/CSS/JS)</h3></a>
+                                    <h3 class="certificate__title">Web Development (HTML/CSS/JS)</h3></a>
                                 <p class="certificate__description">Mimo | JavaScript Learning Course</p>
                             </div>
                         </div>
 
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <a href="https://app.userfeel.com/t/2f62e45e" target="_blank">
-                                    <h3 class="certificate__title">UserFeel Tester</h3></a>
-                                <p class="certificate__description">UserFeel Course</p>
+                        <div class="select-menu">
+                            <div class="select-btn">
+                                <span class="sBtn-text">Show more licenses & certifications</span>
+                                <i class="bx bx-chevron-down"></i>
                             </div>
-                        </div>
 
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <a href="http://openbadges.es/es/emitirCertificado/joelsn82%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/mkt/cert-mkt" target="_blank">
-                                    <h3 class="certificate__title">Digital Marketing</h3></a>
-                                <p class="certificate__description">IAB Spain & Google</p>
-                            </div>
-                        </div>
+                            <ul class="options">
+                            
+                                <li class="option">
+                                    <a href="https://app.userfeel.com/t/2f62e45e" target="_blank">
+                                    <h3 class="certificate__title" id="certificate-popup">UserFeel Tester</h3></a>
+                                    <a href="https://app.userfeel.com/t/2f62e45e" target="_blank">
+                                    <p class="certificate__description" id="certificate-popup-desc">UserFeel Course</p></a>
+                                </li>
 
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <a href="http://openbadges.es/es/emitirCertificado/joelsanchez27%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/analitic/cert-analitic" target="_blank">
-                                    <h3 class="certificate__title">Web Analytics</h3></a>                                
-                                <p class="certificate__description">EOI Spain & Google</p>
-                            </div>
+                                <li class="option">
+                                    <a href="http://openbadges.es/es/emitirCertificado/joelsn82%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/mkt/cert-mkt" target="_blank">
+                                    <h3 class="certificate__title" id="certificate-popup">Digital Marketing</h3></a>
+                                    <a href="http://openbadges.es/es/emitirCertificado/joelsn82%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/mkt/cert-mkt" target="_blank">
+                                    <p class="certificate__description" id="certificate-popup-desc">IAB Spain & Google</p></a>
+                                </li>
+
+                                <li class="option">
+                                    <a href="http://openbadges.es/es/emitirCertificado/joelsanchez27%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/analitic/cert-analitic" target="_blank">
+                                    <h3 class="certificate__title" id="certificate-popup">Web Analytics</h3></a>
+                                    <a href="http://openbadges.es/es/emitirCertificado/joelsanchez27%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/analitic/cert-analitic" target="_blank">
+                                    <p class="certificate__description" id="certificate-popup-desc">EOI Spain & Google</p></a>
+                                </li>
+
+                            </ul>
                         </div>
+                        
                     </div>
+
                 </section>
 
                 <!--======= RECOGNITIONS =======-->
