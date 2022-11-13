@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style-popup-menu.css">
     <link rel="stylesheet" href="style0.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style-popup-menu.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> <!--Favicon-->
     <script src="main.js" defer></script>
@@ -150,11 +150,11 @@
                     <div class="languages__container">
                         <ul class="languages__content bd-grid">
                             <li class="languages__name">
-                                <span class="languages__circle">✔️</span>Spanish - Native Speaker
+                                <i class='bx bxs-badge-check' id="bluemark" style='color: rgb(30, 146, 224)'></i>Spanish - Native Speaker
                             </li>
 
                             <li class="languages__name">
-                                <span class="languages__circle">✔️</span>English - Full professional proficiency
+                                <i class='bx bxs-badge-check' id="bluemark" style='color: rgb(30, 146, 224)'></i>English - Full professional proficiency
                             </li>
                         </ul>
                     </div>
@@ -212,37 +212,15 @@
                             </div>
                         </div>
 
-                        <div class="select-menu">
-                            <div class="select-btn">
-                                <span class="sBtn-text">Show more licenses & certifications</span>
-                                <i class="bx bx-chevron-down"></i>
+                                        <!--======= DROPDOWN POP-UP MENU =======-->
+                        <div class="dropdown">
+                            <button onclick="popUpMenu()" class="dropbtn">Show more licenses & certifications<i class='bx bxs-chevron-down' id="chevron"></i></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="https://app.userfeel.com/t/2f62e45e" target="_blank" id="certificate-popup">UserFeel Tester - UserFeel Course</a>
+                                <a href="http://openbadges.es/es/emitirCertificado/joelsn82%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/mkt/cert-mkt" target="_blank" id="certificate-popup">Digital Marketing - IAB Spain & Google</a>
+                                <a href="http://openbadges.es/es/emitirCertificado/joelsanchez27%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/analitic/cert-analitic" target="_blank" id="certificate-popup">Web Analytics - EOI Spain & Google</a>
                             </div>
-
-                            <ul class="options">
-                            
-                                <li class="option">
-                                    <a href="https://app.userfeel.com/t/2f62e45e" target="_blank">
-                                    <h3 class="certificate__title" id="certificate-popup">UserFeel Tester</h3></a>
-                                    <a href="https://app.userfeel.com/t/2f62e45e" target="_blank">
-                                    <p class="certificate__description" id="certificate-popup-desc">UserFeel Course</p></a>
-                                </li>
-
-                                <li class="option">
-                                    <a href="http://openbadges.es/es/emitirCertificado/joelsn82%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/mkt/cert-mkt" target="_blank">
-                                    <h3 class="certificate__title" id="certificate-popup">Digital Marketing</h3></a>
-                                    <a href="http://openbadges.es/es/emitirCertificado/joelsn82%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/mkt/cert-mkt" target="_blank">
-                                    <p class="certificate__description" id="certificate-popup-desc">IAB Spain & Google</p></a>
-                                </li>
-
-                                <li class="option">
-                                    <a href="http://openbadges.es/es/emitirCertificado/joelsanchez27%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/analitic/cert-analitic" target="_blank">
-                                    <h3 class="certificate__title" id="certificate-popup">Web Analytics</h3></a>
-                                    <a href="http://openbadges.es/es/emitirCertificado/joelsanchez27%40gmail.com/bcd1a55e9b3ff4c9383033dea67465af/analitic/cert-analitic" target="_blank">
-                                    <p class="certificate__description" id="certificate-popup-desc">EOI Spain & Google</p></a>
-                                </li>
-
-                            </ul>
-                        </div>
+                        </div>                        
                         
                     </div>
 
@@ -391,61 +369,61 @@
                     <div class="skills__content bd-grid">
                         <ul class="skills__data">
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Microsoft Office
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Microsoft Office
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Excel, PowerBI, Tableau, SQL, Python
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Excel, PowerBI, Tableau, SQL, Python
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>HTML/CSS/JavaScript
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>HTML/CSS/JavaScript
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Selenium, UIPath
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Selenium, UIPath
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Postman
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Postman
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Process Flow & Management Tools: Jira, Notion, Trello, Slack, Git, CodePen
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Process Flow & Management Tools: Jira, Notion, Trello, Slack, Git, CodePen
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span> ORACLE SAP-HR Module, Siebel & ServiceNow CRM Tools
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>ORACLE SAP-HR Module, Siebel & ServiceNow CRM Tools
                             </li>
                         </ul>
 
                         <ul class="skills__data">
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Data Analytics
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Data Analytics
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Quality Assurance Testing
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Quality Assurance Testing
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Agile & Scrum Methodologies
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Agile & Scrum Methodologies
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Strong Analytical skills
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Strong Analytical skills
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Business Strategy & Planning
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Business Strategy & Planning
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>International Relocations & Mobility Processes
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>International Relocations & Mobility Processes
                             </li>
 
                             <li class="skills__name">
-                                <span class="skills__circle">✔️</span>Global Immigration Processing & Policies
+                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Global Immigration Processing & Policies
                             </li>
                         </ul>
                     </div>
