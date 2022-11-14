@@ -338,6 +338,7 @@ img {
 
 .experience__title {
     font-size: var(--h1-font-size);
+    color: rgb(30, 146, 224);
 }
 
 .experience__description {
@@ -533,12 +534,12 @@ img {
     font-size: 100px;
     font-weight: lighter;
     transition: 0.3s;
-  }
+}
 
-  .close:hover,
-  .close2:hover,
-  .close:focus,
-  .close2:focus {
+.close:hover,
+.close2:hover,
+.close:focus,
+.close2:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -546,10 +547,10 @@ img {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-  .modal-content,
-  .modal-content2 {
+.modal-content,
+.modal-content2 {
     width: 100%;
-  }
+}
 }
 
 /*======================================================= HIGHLIGHTS */
