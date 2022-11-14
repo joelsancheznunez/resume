@@ -51,4 +51,40 @@
     }
 }
 
+/* HIDE DROPDOWN BUTTON (POPUP MENU) for Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 300px) and (max-device-width: 600px) {
+    .dropbtn {
+        display: none;
+    }
+
+    .recognition.section {
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    .education__content {
+        display: inline;
+        right: 0;
+    }
+
+    .education__title {
+        font-size: var(--normal-font-size);
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .education__studies {
+        font-size: var(--normal-font-size);
+    }
+
+    .education__year {
+        font-size: var(--normal-font-size);
+    }
+
+    .home__address {
+        gap: 2rem;
+    }
+}
+
+
 
