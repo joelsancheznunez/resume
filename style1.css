@@ -60,7 +60,7 @@
     .footer { /* Laptop 14" */
         visibility: visible;
         text-align: center;
-        margin-top: 30rem;
+        margin-top: 20rem;
         margin-bottom: 1rem;
         font-size: large;
         font-weight: lighter;
@@ -69,11 +69,11 @@
     /* Theme Button */
     .change-theme {
         position: absolute;
-        right: -0.7rem;
+        right: -0.01rem;
         top: 2.2rem;
         display: flex;
         color: var(--text-color);
-        font-size: 1.7rem;
+        font-size: 2rem;
         cursor: pointer;
     }
 
@@ -146,6 +146,7 @@
     .education__title {
         font-size: var(--h3-font-size);
         font-style: normal;
+        font-weight: bold;
     }
     
     .education__studies {
@@ -197,6 +198,17 @@
     .languages__circle {
         display: inline-block;    
         margin-right: 0.8rem;
+    }
+
+    #bluemark {
+        margin-right: 1rem;
+        font-size: x-large;
+    }
+    
+    #checkmark {
+        margin-right: 0.5rem;
+        font-size: 2rem;
+        font-weight: bolder;
     }
 
     /*=================================================== HIGHLIGHTS */
@@ -297,8 +309,84 @@
         font-size: 1rem;
     }
 
+    /*======================================= POP-UP MENU */
+
+
+    .select-menu {
+        max-width: 85%;
+    }
+    
+    .select-menu .select-btn {
+        display: flex;
+        height: 55px;
+        background: var(--container-color);
+        padding: 20px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: large;
+        font-weight: normal;
+        color: rgb(30, 146, 224);
+        border-radius: 8px;
+        align-items: center;
+        cursor: pointer;
+        justify-content: space-between;
+        box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .select-menu .options {
+        position: absolute;
+        width: 28rem;
+        overflow-y: auto;
+        max-height: 800px;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 8px;
+        background: var(--container-color-alt);
+        box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.1);
+        animation-name: fadeInDown;
+        -webkit-animation-name: fadeInDown;
+        animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 0.3s;
+        -webkit-animation-fill-mode: both;
+    }
+    
+    .select-menu .options .option {
+        display: flex;
+        height: 55px;
+        cursor: pointer;
+        padding: 0.2rem;
+        border-radius: 8px;
+        align-items: center;
+        background: var(--container-color-alt);
+    }
+    
+    .select-menu .options .option:hover {
+        background: var(--container-color);
+        cursor: default;
+    }
+    
+    .select-menu .options .option i {
+        font-size: 25px;
+        margin-right: 12px;
+    }
+    
+    .select-menu .options .option .option-text {
+        font-size: 18px;
+        color: #333;
+    }
+    
+    #certificate-popup {
+        margin-right: 0.7rem;
+        font-size: large;
+    }
+    
+    #certificate-popup-desc {
+        font-size: large;
+    }
+
     /*======================================= RECOGNITION SECTION */
-     
+    
     .recognition__description {
         font-size: var(--h3-font-size);
         font-style: italic;
@@ -315,14 +403,11 @@
         height: 150px;
         width: 190px;
         margin-left: 2px;
-      }
-      
-      #myImg:hover {opacity: 0.7;}
-      #myImg2:hover {opacity: 0.7;}
-      
+    }
+    
       /* The Modal (background) */
-      .modal,
-      .modal2 {
+    .modal,
+    .modal2 {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
         z-index: 1; /* Sit on top */
@@ -334,22 +419,22 @@
         overflow: auto; /* Enable scroll if needed */
         background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-      }
-      
+    }
+    
       /* Modal Content (Image) */
-      .modal-content,
-      .modal-content2 {
+    .modal-content,
+    .modal-content2 {
         margin: auto;
         display: block;
         width: 80%;
         max-width: 700px;
         border-radius: 10px;
         border: rgb(8, 212, 239) solid 2px;
-      }
-      
+    }
+    
       /* Caption of Modal Image (Image Text) - Same Width as the Image */
-      #caption,
-      #caption2 {
+    #caption,
+    #caption2 {
         margin: auto;
         display: block;
         width: 80%;
@@ -359,25 +444,25 @@
         padding: 10px 0;
         height: 150px;
         font-size: large;
-      }
-      
+    }
+    
       /* Add Animation - Zoom in the Modal */
-      .modal-content,
-      .modal-content2, 
-      #caption,
-      #caption2 {
+    .modal-content,
+    .modal-content2, 
+    #caption,
+    #caption2 {
         animation-name: zoom;
         animation-duration: 0.6s;
-      }
-      
-      @keyframes zoom {
+    }
+    
+    @keyframes zoom {
         from {transform:scale(0)}
         to {transform:scale(1)}
-      }
-      
+    }
+    
       /* The Close Button */
-      .close,
-      .close2 {
+    .close,
+    .close2 {
         position: absolute;
         top: 15px;
         right: 35px;
@@ -385,12 +470,12 @@
         font-size: 50px;
         font-weight: lighter;
         transition: 0.3s;
-      }
+    }
     
-      .close:hover,
-      .close2:hover,
-      .close:focus,
-      .close2:focus {
+    .close:hover,
+    .close2:hover,
+    .close:focus,
+    .close2:focus {
         color: #bbb;
         text-decoration: none;
         cursor: pointer;
@@ -398,9 +483,86 @@
     
     /* 100% Image Width on Smaller Screens */
     @media only screen and (max-width: 700px){
-      .modal-content,
-      .modal-content2 {
+    .modal-content,
+    .modal-content2 {
         width: 100%;
-      }
     }
+    }
+}
+
+/* DROPDOWN BUTTON (POPUP MENU) */
+
+.dropbtn {
+    visibility: visible;
+    display: flex;
+    width: 22rem;
+    background-color: var(--container-color);
+    color: rgb(30, 146, 224);
+    padding: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: normal;
+    align-items: center;
+    text-align: left;
+    box-shadow: 10px 12px 9px rgba(0, 0, 0, 0.21);
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: var(--container-color-alt);
+    box-shadow: 10px 12px 9px rgba(0, 0, 0, 0.377);
+    transition: 0.2s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 110%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--container-color-alt);
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 0.5rem;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: 10px 12px 9px rgba(0, 0, 0, 0.21);
+    width: 95%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown a:hover {background-color: var(--container-color);}
+
+.show {display: block;}
+
+#certificate-popup {
+    margin-right: 0.7rem;
+    font-size: medium;
+    font-weight: normal;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#certificate-popup:hover {
+    color: rgb(27, 199, 199);
+    text-shadow: 0.5px 0.5px 0.5px rgb(27, 199, 199);
+    transition: 0.2s;
+}
+
+#chevron {
+    display: none;
 }
