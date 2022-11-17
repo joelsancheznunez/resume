@@ -150,6 +150,10 @@
         width: 100%;
     }
 
+    #highlights-last {   /* For arrow toggle visual after bottom */
+        margin-bottom: -3rem;
+    }
+
     .home__address {
         gap: 2rem;
     }

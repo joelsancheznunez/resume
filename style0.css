@@ -121,6 +121,7 @@ img {
 }
 
 /*======================================================= LAYOUT */
+
 .bd-container {
     max-width: 970px;
     width: calc(100% - 3rem);
@@ -146,26 +147,25 @@ img {
 
 /*======================================================= NAV-BAR */
 .nav {
-    height: var(--header-height);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10rem;
+    height: 8rem;
 }
 
 @media all and (max-device-width: 800px) {
     .nav__menu {
         position: fixed;
         bottom: -100%;
-        left: 2px;
+        left: 20px;
         width: 85%;
         padding: 2rem 1.5rem;
-        margin-bottom: 5.5rem;
+        margin-bottom: 4.5rem;
         background-color: var(--container-color-alt);
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 1rem 1rem 1rem 1rem;
         z-index: var(--z-fixed);
-        transition: 0.5s;
+        transition: 0.2s;
     }
 }
 
@@ -585,7 +585,9 @@ img {
     border-radius: 0.7rem;
     z-index: var(--z-tooltip);
     transition: 0.4s;
-    visibility: hidden; 
+    visibility: hidden;
+    margin-right: -1rem;
+    margin-bottom: -2.5rem;
 }
 
 .scrolltop__icon {
