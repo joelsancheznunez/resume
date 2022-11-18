@@ -58,7 +58,7 @@
     .footer { /* Laptop 14" */
         visibility: visible;
         text-align: center;
-        margin-top: 20rem;
+        margin-top: 30rem;
         margin-bottom: 1rem;
         font-size: large;
         font-weight: lighter;
@@ -513,6 +513,8 @@
 .dropbtn:hover {
     background-color: var(--container-color-alt);
     box-shadow: 10px 12px 9px rgba(0, 0, 0, 0.377);
+    color: rgb(27, 199, 199);
+    text-shadow: 0.5px 0.5px 0.5px rgb(27, 199, 199);
     transition: 0.2s;
 }
 
