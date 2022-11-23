@@ -1,27 +1,15 @@
 ABOUT (Full and complete Bio - LONG)
 
-Self-driven, highly organized, proactive and detail-oriented individual with proven professional experience and strong people skills.
-Solid team-player who can also work independently with superb organizational and problem-solving qualifications.
-Fully bilingual in English and Spanish.
+Self-driven, highly organized, proactive and detail-oriented individual with proven professional experience and strong people skills. Solid team-player who can also work independently with superb organizational and problem-solving qualifications. Fully bilingual in English and Spanish.
 
-Seeking to leverage several years of experience to efficiently deliver, and also pursue a growth-oriented professional path 
-by thoroughly combining the fields I have more background and knowledge: HR, Corporate Sector and Technology.
+Seeking to leverage several years of experience to efficiently deliver, and also pursue a growth-oriented professional path by thoroughly combining the fields I have more background and knowledge: HR, Corporate Sector and Technology.
 
-During the last few years of my career, my job has been mainly focused on finding and enhancing those areas where 
-improvements are required. Identifying repetitive tasks, eliminating re-work and automating processes as much as possible 
-by taking advantage of different software solutions and tools to manage and solve potential issues, avoid human error 
-and obtain more compelling results. Also, creating and applying new dynamics that will provide better outcomes and significant 
-benefits to every person/team involved.
+During the last few years of my career, my job has been mainly focused on finding and enhancing those areas where improvements are required. Identifying repetitive tasks, eliminating re-work and automating processes as much as possible by taking advantage of different software solutions and tools to manage and solve potential issues, avoid human error and obtain more compelling results. Also, creating and applying new dynamics that will provide better outcomes and significant benefits to every person/team involved.
 
-Based on my experience in the field of immigration affairs, recruiting and HR processes; 
-I know for a fact that aiming for coordination between teams, getting the right management, 
-and focusing on optimizing operations regularly, will lead to great improvements at all levels. 
-Technology has also allowed me to leverage these types of activities. In my experience, developing, 
-building and maintaining different projects by keeping a regular routine of source controlling, 
-allows a high level of testing and improvements on every aspect across all phases of any given process.
+Based on my experience in the field of immigration affairs, recruiting and HR processes; I know for a fact that aiming for coordination between teams, getting the right management, and focusing on optimizing operations regularly, will lead to great improvements at all levels. 
+Technology has also allowed me to leverage these types of activities. In my experience, developing, building and maintaining different projects by keeping a regular routine of source controlling, allows a high level of testing and improvements on every aspect across all phases of any given process.
 
-I always perform my roles with discipline, tenacity and creativity; connecting smart and hard work. 
-I fervently believe that's the key to achieve continuous professional growth and maintain a successful career in the long run.
+I always perform my roles with discipline, tenacity and creativity; connecting smart and hard work. I fervently believe that's the key to achieve continuous professional growth and maintain a successful career in the long run.
 
 ======================================================================================================================================
 
@@ -148,6 +136,8 @@ LATEST UPDATES FROM NOTION NOTES
 - Creating and building scalable designs for HCM and Immigration reports
 - Using tools and learning new technologies to make my daily work easier, faster and more efficient
 - The mindset of a lifelong learner and constant development perspective in everything I do
+- Analyze, organize and manipulate data from several teams in order to connect and build detailed spreadsheets and dashboards
+- Build detailed dashboards for immigration, recruitment and HR teams
 
 
 TIPS FOR JOB INTERVIEW
@@ -164,14 +154,6 @@ in order to find potential fits and FN candidates from talent pool, outside or i
 EN ENERO:
 1. CREAR UN NUEVO REPOSITORIO "myresume" SOLO CON LOS FILES PRINCIPALES -- No incluir Notes
 2. ACTIVAR LINKEDIN PRO
-
-
-
-
-
-
-
-
 
 
 

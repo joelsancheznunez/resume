@@ -521,7 +521,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 110%;
+    width: 115%;
 }
 
 .dropdown-content {
@@ -553,7 +553,7 @@
     font-size: medium;
     font-weight: normal;
     color: var(--text-color);
-    text-align: center;
+    text-align: left;
 }
 
 #certificate-popup:hover {

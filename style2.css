@@ -58,7 +58,7 @@
 
     #certificate-popup {
         margin-right: 0.7rem;
-        text-align: center;
+        text-align: left;
         color: var(--text-color);
     }
 }
@@ -82,7 +82,7 @@
     .dropdown {
         position: relative;
         display: inline-block;
-        width: 90%;
+        width: 95%;
     }
 
     .dropdown-content {
