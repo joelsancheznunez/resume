@@ -138,6 +138,7 @@ LATEST UPDATES FROM NOTION NOTES
 - The mindset of a lifelong learner and constant development perspective in everything I do
 - Analyze, organize and manipulate data from several teams in order to connect and build detailed spreadsheets and dashboards
 - Build detailed dashboards for immigration, recruitment and HR teams
+- Creating macros on Excel to cleanup and simplify reports
 
 
 TIPS FOR JOB INTERVIEW
