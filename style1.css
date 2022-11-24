@@ -293,6 +293,7 @@
 
     .profile__description {
         font-size: var(--normal-font-size);
+        text-align: justify;
     }
 
     .home__container {
