@@ -58,7 +58,7 @@
     .footer { /* Laptop 14" */
         visibility: visible;
         text-align: center;
-        margin-top: 30rem;
+        margin-top: 36rem;
         margin-bottom: 1rem;
         font-size: large;
         font-weight: lighter;
@@ -119,6 +119,7 @@
     
     .experience__description {
         margin-bottom: 1.5rem;
+        margin-left: 0.1rem;
         font-size: var(--normal-font-size);
     }
 
@@ -302,6 +303,7 @@
 
     .skills.section {
         margin-left: 2rem;
+        padding-bottom: 0;
     }
 
     .skills__circle {

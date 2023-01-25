@@ -11,7 +11,8 @@ Technology has also allowed me to leverage these types of activities. In my expe
 
 I always perform my roles with discipline, tenacity and creativity; connecting smart and hard work. I fervently believe that's the key to achieve continuous professional growth and maintain a successful career in the long run.
 
-======================================================================================================================================
+=====================================================================================================================
+
 EXPERIENCE
 
 JPMorgan Chase & Co. | Legal Immigration Senior Specialist
@@ -58,7 +59,8 @@ Logistics and Operations General Manager of a branch of this mail company in Ven
 ✔ Supervise and participate in the entire logistic process along with our clients and our team members.
 ✔ Establish and provide focused attention to our clients, in order to gain and build a solid business relationship and customer engagement.
 
-======================================================================================================================================
+=====================================================================================================================
+
 SKILLS & TOOLS
 
 Relational database management system tools (RDBMS)
@@ -87,24 +89,19 @@ Marketing Communications
 Sales Management
 Strategic Planning
 
-======================================================================================================================================
+=====================================================================================================================
+
 CV UPDATES 2022
 ACCENTURE: Build automation scripts in Python with Selenium and PANDAS
 GLOBANT: Creating RPA automations in UIPath to complete forms and submit visa applications.
 Internal Immigration site to help employees traveling abroad for business purposes and relocation
 JPMC: UIPath for web scrapping and visa application forms. Reporting and Immigration data analytics
 
-TITLE IN LINKEDIN:
-Immigration & Mobility Data Analyst / Data Analytics and Process Automation
-Immigration & Mobility Specialist | Consultant | Data Analyst
-
 LINKEDIN SSI PAGE
 https://www.linkedin.com/sales/ssi
 
-BIO:
-Recently moved to Costa Rica
+=====================================================================================================================
 
-======================================================================================================================================
 UPDATES --- ADD JOB DESCRIPTION:
 
 Strong Analytical Skills
@@ -116,7 +113,8 @@ Run, analyze and manage weekly reports for workforce analytics and immigration d
 Automation to create, edit and delete profiles in our tools in order to clean, maintain and update our client database and reports 
 Organize and manage foreign national employees database in Ad-hoc tools in order to provide metrics and budget estimates to hiring managers in different projects
 
-======================================================================================================================================
+=====================================================================================================================
+
 HIGHLIGHTS
 Created a report combining data from different teams and areas to determine and connect the business needs with the WFA, external candidates and talent pool
 Created dashboard to measure the volume of joiners and termination cases for foreign national employees by work location, visa type, position, dependents, etc
@@ -124,7 +122,8 @@ Created dashboard to measure the volume of joiners and termination cases for for
 FREELANCE (UpWork, Fiverr, etc)
 "I will create reports, organize, analyze and manage your data"
 
-======================================================================================================================================
+=====================================================================================================================
+
 LATEST UPDATES FROM NOTION NOTES
 
 - Provide solutions and data analysis by combining software tools and methodologies that applies statistical models to worker-related data, allowing enterprise leaders to optimize human resource management.
@@ -141,7 +140,8 @@ LATEST UPDATES FROM NOTION NOTES
 - Creating macros on Excel to cleanup and simplify reports
 - Build a very compelling data analysis that truly works for all teams involved
 
-======================================================================================================================================
+=====================================================================================================================
+
 TIPS FOR JOB INTERVIEW
 
 - Worked hand in hand with the IT team to develop Immigration tools
@@ -153,7 +153,8 @@ testing and making sure the tools were compliant and compelling to what we neede
 - We developed a CRUD tool dedicated only to Immigration, so we can cross that data with the rest of the Workforce 
 in order to find potential fits and FN candidates from talent pool, outside or intracompany transfers.
 
-======================================================================================================================================
+=====================================================================================================================
+
 EN ENERO:
 1. CREAR UN NUEVO REPOSITORIO "myresume" SOLO CON LOS FILES PRINCIPALES -- No incluir Notes
 2. ACTIVAR LINKEDIN PRO
