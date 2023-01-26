@@ -8,7 +8,7 @@ I always perform my roles with analytical mindset, discipline, tenacity and crea
 
 The mindset of a lifelong learner, and constant development perspective in everything I do, truly allows me to gain experience and enhance my professional growth.
 
-=====================================================================================================================
+=============================================================================================================================================
 
 EXPERIENCE
 
@@ -22,21 +22,6 @@ Argentina | June 2020 - Present
 - Build immigration processes and flowcharts oriented to improve connections and workflows between the IT, HR and Immigration teams.
 - Creation of mind-maps for end to end processes designed to visualize and provide detailed orientation to employees on relocation and hiring managers abroad.
 
-
-✔ Conduct a wide variety of in-house processes related to HR and immigration processes.
-✔ Design roadmaps for projects to aim for improvements in processes and new dynamics between teams.
-✔ Help and actively participate in building and developing the immigration team in Buenos Aires.
-✔ Build and execute flowcharts to define stages and phases for different practices in the HR and recruiting area.
-✔ Analyze and review job descriptions, professional profiles and resumes along with Project Managers to determine and classify potential candidates to hire.
-✔ Perform QA processes to visa applications and petitions.
-✔ Create communication templates by using GPT3, and managing mass notification tools to trigger emails in bulk to employees and customers.
-✔ Provide global training sessions to immigration & recruiting operations teams from the JPMC Corporate Center Buenos Aires.
-✔ Create playbooks and design workflows for several internal processes and activities related to immigration matters.
-✔ Daily interaction with employees in order to provide immigration advisory and discuss internal policies related to it.
-✔ Reduction in Force (RIF & Layoff Case Analysis) and Talent Pool management.
-✔ Report, review, update and control of foreign national employees' roster to keep an updated record of every immigration status.
-
-
 GLOBANT | Immigration & Mobility Senior Data Analyst
 Argentina | June 2017 - June 2020
 - Provide a well detailed, simplified and accurate data with all the information the business needs related to foreign national employees working abroad.
@@ -49,20 +34,8 @@ Argentina | June 2017 - June 2020
 - Creating macros on Excel to cleanup and simplify reports
 - Test and benchmark our Ad-hoc immigration tools during development sprints
 
-
-✔ Provide exceptional and dedicated support in mobility processes to employees, external candidates and other internal stakeholders traveling abroad for business and work purposes.
-✔ Prepare historical reports to analyze volume, metrics and potential future growth in the foreign national employee population working for the company.
-✔ Identify the need of new internal policies required for expat employees, participate in the development and implementation of it.
-✔ Provide immigration and mobility advisory to Project Managers and clients.
-✔ Organize and assess relocation and internal job rotation processes for different project pipelines and talent pools.
-✔ Participate in end-to-end immigration and recruitment processes for foreign national employees.
-✔ Act as strategic partner and consultant to business leaders and partner support teams.
-
-
 ACCENTURE | Business Operations & Immigration Analyst
 Argentina | June 2014 - June 2017
-- Build automation scripts for web-scrapping in Python with Selenium and PANDAS
-
 ✔ Assessment and analysis of immigration, international relocations and mobility cases.
 ✔ Providing assistance and guidance for employees traveling abroad for business or relocation purposes.
 ✔ Processing different visa types in several Latin American countries.
@@ -81,11 +54,5 @@ Logistics and Operations General Manager of a branch of this mail company in Ven
 ✔ Supervise and participate in the entire logistic process along with our clients and our team members.
 ✔ Establish and provide focused attention to our clients, in order to gain and build a solid business relationship and customer engagement.
 
-=====================================================================================================================
-
-INTERVIEW TIPS
-
-- Agile all by myself in my team to build solutions and automations
-- Understand the business needs, have the right tools, the expertise and a team working together, then the magic just happens.
-- Using tools and learning new technologies to make my daily work easier, faster and more efficient
+=============================================================================================================================================
 
