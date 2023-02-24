@@ -45,9 +45,10 @@
     .footer { /* 24" Screen */
         visibility: visible;
         text-align: center;
-        margin-top: 27rem;
-        margin-bottom: 1.5rem;
+        margin-top: 24rem;
+        margin-bottom: 0.5rem;
         font-size: large;
+        color: #707070;
     }
 
     .dropdown {

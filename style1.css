@@ -58,10 +58,12 @@
     .footer { /* Laptop 14" */
         visibility: visible;
         text-align: center;
-        margin-top: 36rem;
-        margin-bottom: 1rem;
+        margin-top: 32rem;
+        margin-bottom: 0.5rem;
+        padding-top: 2rem;
         font-size: large;
         font-weight: lighter;
+        color: #707070;
     }
     
     /* Theme Button */
