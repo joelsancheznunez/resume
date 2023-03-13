@@ -266,8 +266,8 @@
     }
 
     .home__img {
-        width: 220px;
-        height: 220px;
+        width: 210px;
+        height: 210px;
         border: var(--text-color) solid 3px;
         border-radius: 10%;
         justify-self: center;
