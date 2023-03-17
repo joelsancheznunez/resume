@@ -1,231 +1,462 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style-popup-menu.css">
-    <link rel="stylesheet" href="style0.css">
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"> <!--Favicon-->
-    <script src="main.js" defer></script>
-    <script src="popup-menu.js" defer></script>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Joel Sánchez Núñez</title>
-</head>
-<body>
-    <!--======= HEADER =======-->
-    <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <p class="nav__logo">Joel Sánchez Núñez - 2023</p>
-            
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                            <i class='bx bx-home nav__icon' ></i> HOME
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#profile" class="nav__link">
-                            <i class='bx bx-user nav__icon' ></i> ABOUT
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#education" class="nav__link">
-                            <i class='bx bx-book nav__icon'></i> EDUCATION
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#certificates" class="nav__link">
-                            <i class='bx bx-award nav__icon' ></i> CERTIFICATES
-                        </a>
-                    </li>
-                    
-                    <li class="nav__item">
-                        <a href="#experience" class="nav__link">
-                            <i class='bx bx-briefcase nav__icon'></i> EXPERIENCE
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-receipt nav__icon' ></i> SKILLS
-                        </a>
-                    </li>
-
-                </ul>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="220">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">MY RESUME</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
             </div>
-
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt'></i> <!-- BUTTON: Main Menu -->
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="">Home</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#certificates">Certificates</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#highlights">Achievements</a></li>
+              </ul>
             </div>
+          </div>
         </nav>
+      </div>
     </header>
 
-    <main class="l-main bd-container">
-        <div class="resume">
+<div class="page-content">
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="images/profile_pic.jpg" alt="Image"/></a></div>
+          <div class="h2 title">JOEL SÁNCHEZ</div>
+          <p class="category text-white">Data Analytics | Immigration & Mobility Specialist</p>
+          <a class="btn btn-primary" id="btn-download" download="" href="files/Joel Sanchez - CV2023.pdf"
+          data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container">
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://goo.gl/maps/YBSatiDJCdWyisPA6" target="_blank" rel="tooltip" title="My Location"><i class="fa fa-map-marker"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="mailto:joelsanchez.email@gmail.com" rel="tooltip" title="Send me an Email"><i class="fa fa-envelope"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/joelsancheznunez/" target="_blank" rel="tooltip" title="My LinkedIn"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div class="resume__left">
-                <!--======= Home =======-->
-                <section class="home" id="home">
-                    <div class="home__container section bd-grid">
-                        <div class="home__data bd-grid">
-                            <img src="images/profile_pic.jpg" alt="" class="home__img">
+<!-- ================== ABOUT ===================== -->
 
-                            <h1 class="home__title">JOEL SÁNCHEZ NÚÑEZ</h1>
-                            <h3 class="home__profession">Data Analytics | Immigration & Mobility Specialist</h3>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body" id="card-about">
+            <div class="h4 mt-0 title">About me</div>
+            <p>I'm a highly organized, proactive and detail-oriented individual, with proven professional experience and strong analytical skills. One solid team player who can also work independently with superb organizational and problem-solving qualifications.</p>
+            <p>Seeking to leverage several years of experience to efficiently deliver, and also pursue a growth-oriented professional path by thoroughly combining the fields I have more background and knowledge: HR, Mobility, Corporate Sector and Technology.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Location:</strong></div>
+              <div class="col-sm-8">Costa Rica | Alajuela.</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone Number:</strong></div>
+              <div class="col-sm-8">+506 6106-6267</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8"><a href="mailto:joelsanchez.email@gmail.com"> joelsanchez.email@gmail.com</a></div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">LinkedIn:</strong></div>
+              <div class="col-sm-8"><a href="https://www.linkedin.com/in/joelsancheznunez/" target="_blank"> @JoelSanchezNunez</a></div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Languages:</strong></div>
+              <div class="col-sm-8">English & Spanish – Both, professional proficiency or above.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                            <!-- BUTTON: Download Resume in PDF format -->
-                            <div>
-                                <a class="home__button-download" download="" href="resume_pdf/Joel Sanchez - CV2023.pdf">Download my CV</a>
-                            </div>
-                        </div>
+<!-- ================== SKILLS ===================== -->
 
-                        <div class="home__address bd-grid">
-                            <span class="home__information">
-                                <i class='bx bx-map home__icon'></i> Costa Rica | Alajuela.
-                            </span>
+<div class="section" id="skills">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Skills & Knowledge</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body" id="skills-card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ Data Analytics</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ Microsoft Office</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ Quality Assurance Testing</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ Agile & Scrum Methodologies</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ Business Strategy & Planning</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ Strong Analytical Skills</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ Global Immigration Processing & Policies</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ International Relocations & Mobility Processes</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ DATA TOOLS : Excel, PowerBI, Tableau, SQL, Python</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ DEVELOPMENT TOOLS : HTML/CSS/JavaScript</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ AUTOMATION TOOLS : Selenium, UIPath</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ TESTING TOOLS : Postman</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ PROCESS & MANAGEMENT TOOLS : Jira, Notion, Trello, Slack, Git</span></div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">✓ CRM TOOLS : Oracle SAP-HR Module, Siebel & ServiceNow</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                            <span class="home__information">
-                                <i class='bx bx-envelope home__icon' ></i>
-                                <a href="mailto:joelsanchez.email@gmail.com"> joelsanchez.email@gmail.com</a>
-                            </span>
+<!-- ================== WORK EXPERIENCE ===================== -->
 
-                            <span class="home__information">
-                                <i class='bx bx-phone home__icon' ></i> +506 6106-6267
-                            </span>
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p id="country">Argentina</p>
+            <p id="employment-dates">June 2020 - January 2023</p>
+            <div class="h5" id="employer">JPMorgan Chase & Co.</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5" id="position">Legal Immigration Senior Specialist</div>
+            <p id="experience-text-description">
+              ⦁ Provide solutions supported on data analytics, by combining software tools and methodologies that applies statistical models to worker-related data, allowing the organization and leaders to optimize human resource management. <br>
+              ⦁ Run, analyze, clean-up and manage reports for workforce analytics and immigration data metrics related to all foreign national employees working abroad for the firm. <br>
+              ⦁ Report, review, update and maintenance of foreign national employees' roster to keep an updated record of immigration status in general. <br>
+              ⦁ Creating and building scalable designs for HCM and Immigration reports. <br>
+              ⦁ Build automations to create, edit and delete profiles in our tools in order to clean, maintain and update our client database and reports. <br>
+              ⦁ Mentoring new team members while building the new Immigration Team in Buenos Aires. <br>
+              ⦁ Development of immigration processes and flowcharts oriented to improve connections and workflows between the IT, HR and Immigration teams. <br>
+              ⦁ Analyze and review job descriptions, professional profiles and resumes along with Project Managers to determine and classify potential candidates to hire. <br>
+              ⦁ Design roadmaps for end-to-end processes to visualize and provide detailed orientation to employees on relocation and hiring managers abroad. <br>
+              ⦁ Perform QA processes to visa applications and immigration petitions. <br>
+              ⦁ Provide global training sessions to immigration & recruiting operations teams from the JPMC Corporate Center in Buenos Aires.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                            <span class="home__information">
-                                <i class='bx bxl-linkedin-square home__icon' ></i>
-                                <a href="https://www.linkedin.com/in/joelsancheznunez/" target="_blank"> @JoelSanchezNunez</a>
-                            </span>
-                        </div>
-                    </div>
-                    <!-- Dark/Light Theme Change Button -->
-                    <i class='bx bx-moon change-theme' title="Theme: Light/Dark" id="theme-button"></i>
-                </section>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p id="country">Argentina</p>
+            <p id="employment-dates">June 2017 - June 2020</p>
+            <div class="h5" id="employer">Globant</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5" id="position">Immigration & Mobility Senior Data Analyst</div>
+            <p id="experience-text-description">
+              ⦁ Provide a well detailed, simplified and accurate data analysis with all the information the business needs related to foreign national employees working abroad. <br>
+              ⦁ Analyze, organize and manipulate data from several teams in order to connect and build detailed spreadsheets and dashboards. <br>
+              ⦁ Organize and manage foreign national employees database in Ad-hoc tools. Run reports from it to provide metrics and budget estimates to hiring managers in different projects. <br>                                    
+              ⦁ Prepare historical reports oriented to analyze volume, metrics and potential future growth in the foreign national employee population working for the company. <br>
+              ⦁ Running and constantly improving SQL queries for workforce analytics, recruiting and immigration teams. <br>                                    
+              ⦁ Web Development of internal immigration site dedicated to provide information about mobility processes to help employees traveling abroad for business or relocation purposes. <br>
+              ⦁ Creating macros on Excel to automate cleanups and simplify reports for a wide range of teams and stakeholders. <br>
+              ⦁ Build automations in UIPath/Selenium IDE to complete forms and submit visa applications. <br>
+              ⦁ Test and benchmark our Ad-hoc immigration tools during development sprints. <br>
+              ⦁ Identify the need of new internal policies required for expat employees, also participate in the development and implementation of it. <br>
+              ⦁ Organize and assess relocation and internal job rotation processes for different project pipelines and talent pool. <br>
+              ⦁ Act as strategic partner and consultant to help and support business leaders and teams.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                <!--======= ABOUT =======-->
-                <section class="profile section" id="profile">
-                    <h2 class="section-title">About me</h2>
-                    <p class="profile__description">
-                        Hi there! I'm Joel. Please allow me to introduce myself:
-                        <br><br>
-                        I recently moved to Costa Rica, this year in January (2023). I'm a highly organized, proactive and 
-                        detail-oriented individual, with proven professional experience and strong analytical skills. 
-                        One solid team player who can also work independently with superb organizational 
-                        and problem-solving qualifications. Fully bilingual in English and Spanish.
-                        <br><br>
-                        I'm constantly seeking to leverage several years of experience to efficiently deliver, 
-                        and also pursue a growth-oriented professional path by thoroughly combining 
-                        the fields I have more background and knowledge: HR, Mobility, Corporate Sector and Technology.
-                        <br><br>
-                        I perform my roles with analytical mindset, discipline, tenacity and creativity; 
-                        connecting smart and hard work. I fervently believe that's the key to achieving continuous 
-                        professional growth and maintaining a successful career in the long run.
-                        <br><br>
-                        The mindset of a lifelong learner, and constant development perspective in everything I do, 
-                        truly allows me to gain experience and enhance my professional growth everyday.
-                    </p>
-                </section>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p id="country">Argentina</p>
+            <p id="employment-dates">June 2014 - June 2017</p>
+            <div class="h5" id="employer">Accenture</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5" id="position">Business Operations & Immigration Analyst</div>
+            <p id="experience-text-description">
+              ⦁ Assessment and analysis of immigration reports, international relocations and mobility cases. <br>
+              ⦁ Providing assistance and guidance for employees traveling abroad under business or relocation purposes. <br>
+              ⦁ Processing different visa types for several Latin American countries. <br>
+              ⦁ Creation of automation scripts for web-scraping in Python using Selenium and PANDAS <br>
+              ⦁ Building and implementation of automation processes by using Python to optimize immigration form fillings, avoid human error and potential data entry issues. <br>
+              ⦁ Provide support and advice on all related to immigration matters, destination services and case management. <br>
+              ⦁ Prepare and analyze cost estimates for travels and job assignments abroad. <br>
+              ⦁ Build detailed dashboards for immigration, recruitment and HR teams. <br>
+              ⦁ Policy development and talent pool management. <br>
+              ⦁ Implementation of new procedures and development of playbooks for Latin America immigration processes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                <!--======= EDUCATION =======-->
-                <section class="education section" id="education">
-                    <h2 class="section-title-left">Education</h2>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p id="country">Venezuela</p>
+            <p id="employment-dates">February 2008 - March 2014</p>
+            <div class="h5" id="employer">Tealca</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5" id="position">Branch Manager</div>
+            <p id="experience-text-description">
+              <b><i>Logistics and Operations General Manager of a branch of this mail company in Venezuela. </i></b><br>
+              ⦁ Lead the entire logistics team and work with groups of operational and administrative staff. <br>
+              ⦁ Work with groups and staff across the whole franchise. <br>
+              ⦁ Develop strategies, set objectives and achieve goals considering short, mid and long term periods. <br>
+              ⦁ Supervise and participate in the entire logistic process along with our clients and our team members. <br>
+              ⦁ Establish and provide focused attention to our clients, in order to gain and build a solid business relationship and customer engagement. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                    <div class="education__container bd-grid">
-                        <div class="education__content">
-                            
-                            <div class="education__data bd-grid">
-                                <h3 class="education__title">Bachelor Degree in Corporate Communications</h3>
-                                <span class="education__studies">Universidad Santa María (Caracas, Venezuela)</span>
-                                <span class="education__year">2002 - 2006</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-                <!--======= LANGUAGES =======-->
-                <section class="languages section">
-                    <h2 class="section-title-left">Languages</h2>
+<!-- ================== EDUCATION ===================== -->
 
-                    <div class="languages__container">
-                        <ul class="languages__content bd-grid">
-                            <li class="languages__name">
-                                <i class='bx bxs-badge-check' id="bluemark" style='color: rgb(30, 146, 224)'></i>Spanish - Native Speaker
-                            </li>
+<div class="section" id="education">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="card">
+      <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+        <div class="card-body" id="education-card">
+          <div class="h5" id="education-title">Bachelor Degree in Corporate Communications</div>
+            <p id="education-text-description">
+              <b>Universidad Santa María (Caracas, Venezuela)</b><br>              
+              <i>2002 - 2006</i>
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-                            <li class="languages__name">
-                                <i class='bx bxs-badge-check' id="bluemark" style='color: rgb(30, 146, 224)'></i>English - Full professional proficiency
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+<!-- ================== CERTIFICATES ===================== -->
 
-                <!--======= CERTIFICATES =======-->
-                <section class="certificate section" id="certificates">
-                    <h2 class="section-title-left">Certificates</h2>
+<div class="section" id="certificates">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Licenses & Certifications</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body" id="certificates-card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://www.codecademy.com/profiles/joelsancheznunez/certificates/042a4e5884e3eb6ea1f2a12be6abb851" target="_blank"><b>⦁ SQL / </b>Codecademy / Learn SQL Course</a>
+              </span>
+            </div>
+          </div>
 
-                    <div class="certificate__container bd-grid">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://www.codecademy.com/profiles/joelsancheznunez/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank"><b>⦁ Python 3 / </b>Codecademy / Learn Python 3 Course</a>
+              </span>
+            </div>
+          </div>
 
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <a href="https://www.codecademy.com/profiles/joelsancheznunez/certificates/042a4e5884e3eb6ea1f2a12be6abb851" target="_blank">
-                                    <h3 class="certificate__title">SQL</h3></a>
-                                    <p class="certificate__description">Codecademy | Learn SQL Course</p>
-                                </div>
-                            </div>
-                        
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <a href="https://www.codecademy.com/profiles/joelsancheznunez/certificates/6c152bd262967f8c941c9707ed636bda" target="_blank">
-                                    <h3 class="certificate__title">Python 3</h3></a>
-                                    <p class="certificate__description">Codecademy | Learn Python 3 Course</p>
-                                </div>
-                            </div>
-                            
-                            <div class="certificate__container bd-grid">
-                                <div class="certificate__content">
-                                <a href="https://www.coderhouse.com/certificados/63542d23478aa5000e4f8ce1" target="_blank">
-                                    <h3 class="certificate__title">Testing QA Manual</h3></a>
-                                <p class="certificate__description">CoderHouse | Web Testing and QA Fundamental Process</p>
-                            </div>
-                        </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://www.coderhouse.com/certificados/63542d23478aa5000e4f8ce1" target="_blank"><b>⦁ Testing QA / </b>CoderHouse / Web Testing and QA Processes</a>
+              </span>
+            </div>
+          </div>
 
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ea115911-34af-4562-97a5-395ba1df2ace" target="_blank">
-                                    <h3 class="certificate__title">Full Stack - Python</h3></a>
-                                <p class="certificate__description">City of Buenos Aires | Full Stack - Python Course by Codo a Codo Initiative</p>
-                            </div>
-                        </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ea115911-34af-4562-97a5-395ba1df2ace" target="_blank"><b>⦁ Full Stack - Python / </b>City of Buenos Aires / Codo a Codo Initiative</a>
+              </span>
+            </div>
+          </div>
 
-                                        <!--======= CERTIFICATES DROPDOWN POP-UP MENU =======-->
-                        <div class="dropdown">
-                            <button onclick="popUpMenu()" class="dropbtn">View more licenses & certifications</button>
-                            <div id="myDropdown" class="dropdown-content">
-                                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:7efb0e4b-edf4-4288-9fc7-034c9e3136f9" target="_blank" id="certificate-popup">✹ Mimo Development - JavaScript & WebDev</a>
-                                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:c9184e3d-5335-4782-a2ff-f27891970546" target="_blank" id="certificate-popup">✹ Mimo Development - Python Course</a>
-                                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ad2778de-9529-4dd6-bd36-c33cb08f4daf" target="_blank" id="certificate-popup">✹ Mimo Development - SQL Course</a>
-                                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:15ead89a-6f7a-440b-8d2d-4186dcbd0044" target="_blank" id="certificate-popup">✹ EOI Spain & Google - Web Analytics</a>
-                                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:97d78e55-bcc4-47b6-9249-c74323aff319" target="_blank" id="certificate-popup">✹ IAB Spain & Google - Digital Marketing</a>
-                                <a href="https://app.userfeel.com/t/2f62e45e"                                                            target="_blank" id="certificate-popup">✹ UserFeel Tester - UserFeel Course</a>
-                            </div>
-                        </div>                        
-                        
-                    </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:7efb0e4b-edf4-4288-9fc7-034c9e3136f9" target="_blank"><b>⦁ JavaScript & WebDev / </b>Mimo Development</a>
+              </span>
+            </div>
+          </div>
 
-                </section>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:c9184e3d-5335-4782-a2ff-f27891970546" target="_blank"><b>⦁ Python Course / </b>Mimo Development</a>
+              </span>
+            </div>
+          </div>
 
-                <!--======= RECOGNITIONS =======-->
-                <section class="recognition section" id="recognitions">
-                    <h2 class="section-title-left">Recognitions</h2>
-                    <p class="recognition__description">A few words from my managers...</p>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:ad2778de-9529-4dd6-bd36-c33cb08f4daf" target="_blank"><b>⦁ SQL Course / </b>Mimo Development</a>
+              </span>
+            </div>
+          </div>
 
-                    <!-- Trigger the Modal -->
-                    <img id="myImg" src="images/recognition_1.jpg" alt="Employee Appreciation Week">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:15ead89a-6f7a-440b-8d2d-4186dcbd0044" target="_blank"><b>⦁ Web Analytics / </b>EOI Spain & Google</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:97d78e55-bcc4-47b6-9249-c74323aff319" target="_blank"><b>⦁ Digital Marketing / </b>IAB Spain & Google</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="progress-container progress-primary">
+              <span class="progress-badge">
+                <a href="https://app.userfeel.com/t/2f62e45e" target="_blank"><b>⦁ Manual Testing QA / </b>UserFeel Tester Course</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================== HIGHLIGHTS ===================== -->
+
+<div class="section" id="highlights">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Some Achievements & Highlights</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body" id="highlights-card-body">
+            <div class="h5">⭐ @JPMorgan Chase & Co.</div>
+            <p>
+              I conducted the trainings for the new local team members in order to fully build the new Immigration 
+              Team in Buenos Aires, Argentina. I've also managed to optimize and tune-up the immigration processes 
+              and flowcharts oriented to improve connections and workflows between the IT, HR and Immigration teams.
+            </p>
+          </div>
+        </div>        
+      </div>      
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body" id="highlights-card-body">
+            <div class="h5">⭐ @Globant</div>
+            <p>
+              I built oversimplified dashboards to visualize and measure the volume of candidates, 
+              joiners and termination cases for foreign national employees by work location, visa type, 
+              position, dependents, among others.
+            </p>
+          </div>
+        </div>        
+      </div>      
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body" id="highlights-card-body">
+            <div class="h5">⭐ @Accenture</div>
+            <p>
+              I was involved and participated during the whole development, testing and deployment process 
+              of the Immigration management tool for the company. This tool was a great success and improvement 
+              for all the management, database, and proper tracking of each employee in terms of immigration, 
+              relocations and business trips.
+            </p>
+          </div>
+        </div>        
+      </div>      
+    </div>
+
+    <div class="h5" id="manager-words">A few words from my managers...</div>
+    <section class="recognition-images">
+      <img id="myImg" src="images/recognition_1.jpg" alt="Employee Appreciation Week">
 
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
@@ -240,7 +471,7 @@
                         <div id="caption"></div>
                     </div>
 
-                    <img id="myImg2" src="images/recognition_2.jpg" alt="Recognition">
+      <img id="myImg2" src="images/recognition_2.jpg" alt="Recognition">
 
                     <!-- The Modal 2 -->
                     <div id="myModal2" class="modal2">
@@ -254,222 +485,29 @@
                         <!-- Modal Caption (Image Text) -->
                         <div id="caption2"></div>
                     </div>
-                </section>
+    </section>
+  </div>
+</div>
 
-                <div class="footer">Joel Sánchez Núñez - 2023</div>
-                
-            </div>                        
-                                    
-            <div class="resume__right">                
-                <!--======= EXPERIENCE =======-->
-                <section class="experience section" id="experience">
-                    <h2 class="section-title-experience">Experience</h2>
+    <footer class="footer">
+      <div class="container text-center">
+        <a class="cc-map-marker btn btn-link" href="https://goo.gl/maps/YBSatiDJCdWyisPA6" target="_blank"><i class="fa fa-map-marker fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-envelope btn btn-link" href="mailto:joelsanchez.email@gmail.com"><i class="fa fa-envelope fa-2x " aria-hidden="true"></i></a>
+        <a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/joelsancheznunez/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      </div>
+    
+      <div class="h5 title text-center">Joel Sánchez Núñez</div>
+      <div class="text-center text-muted">
+        <p>My Resume 2023.<br>Costa Rica | Alajuela</a></p>
+      </div>
+    </footer>
 
-                    <div class="experience__container bd-grid">
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title"><b>JPMorgan Chase & Co.</b> | Legal Immigration Senior Specialist</h3>
-                                <span class="experience__company">Argentina | June 2020 - January 2023</span>
-                                <p class="experience__description">
-                                    - Provide solutions supported on data analytics, by combining software tools and methodologies that applies statistical models to worker-related data, allowing the organization and leaders to optimize human resource management. <br>
-                                    - Run, analyze, clean-up and manage reports for workforce analytics and immigration data metrics related to all foreign national employees working abroad for the firm. <br>
-                                    - Report, review, update and maintenance of foreign national employees' roster to keep an updated record of immigration status in general. <br>
-                                    - Creating and building scalable designs for HCM and Immigration reports. <br>
-                                    - Build automations to create, edit and delete profiles in our tools in order to clean, maintain and update our client database and reports. <br>
-                                    - Mentoring new team members while building the new Immigration Team in Buenos Aires. <br>
-                                    - Development of immigration processes and flowcharts oriented to improve connections and workflows between the IT, HR and Immigration teams. <br>
-                                    - Analyze and review job descriptions, professional profiles and resumes along with Project Managers to determine and classify potential candidates to hire. <br>
-                                    - Design roadmaps for end-to-end processes to visualize and provide detailed orientation to employees on relocation and hiring managers abroad. <br>
-                                    - Perform QA processes to visa applications and immigration petitions. <br>
-                                    - Provide global training sessions to immigration & recruiting operations teams from the JPMC Corporate Center in Buenos Aires.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title"><b>Globant</b> | Immigration & Mobility Senior Data Analyst</h3>
-                                <span class="experience__company">Argentina | June 2017 - June 2020</span>
-                                <p class="experience__description">
-                                    - Provide a well detailed, simplified and accurate data analysis with all the information the business needs related to foreign national employees working abroad. <br>
-                                    - Analyze, organize and manipulate data from several teams in order to connect and build detailed spreadsheets and dashboards. <br>
-                                    - Organize and manage foreign national employees database in Ad-hoc tools. Run reports from it to provide metrics and budget estimates to hiring managers in different projects. <br>                                    
-                                    - Prepare historical reports oriented to analyze volume, metrics and potential future growth in the foreign national employee population working for the company. <br>
-                                    - Running and constantly improving SQL queries for workforce analytics, recruiting and immigration teams. <br>                                    
-                                    - Web Development of internal immigration site dedicated to provide information about mobility processes to help employees traveling abroad for business or relocation purposes. <br>
-                                    - Creating macros on Excel to automate cleanups and simplify reports for a wide range of teams and stakeholders. <br>
-                                    - Build automations in UIPath/Selenium IDE to complete forms and submit visa applications. <br>
-                                    - Test and benchmark our Ad-hoc immigration tools during development sprints. <br>
-                                    - Identify the need of new internal policies required for expat employees, also participate in the development and implementation of it. <br>
-                                    - Organize and assess relocation and internal job rotation processes for different project pipelines and talent pool. <br>
-                                    - Act as strategic partner and consultant to help and support business leaders and teams.
-                                </p>
-                            </div>
-                        </div>
-                                    
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>
-                                <span class="experience__line"></span>
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title"><b>Accenture</b> | Business Operations & Immigration Analyst</h3>
-                                <span class="experience__company">Argentina | June 2014 - June 2017</span>
-                                <p class="experience__description">
-                                    - Assessment and analysis of immigration reports, international relocations and mobility cases. <br>
-                                    - Providing assistance and guidance for employees traveling abroad under business or relocation purposes. <br>
-                                    - Processing different visa types for several Latin American countries. <br>
-                                    - Creation of automation scripts for web-scraping in Python using Selenium and PANDAS <br>
-                                    - Building and implementation of automation processes by using Python to optimize immigration form fillings, avoid human error and potential data entry issues. <br>
-                                    - Provide support and advice on all related to immigration matters, destination services and case management. <br>
-                                    - Prepare and analyze cost estimates for travels and job assignments abroad. <br>
-                                    - Build detailed dashboards for immigration, recruitment and HR teams. <br>
-                                    - Policy development and talent pool management. <br>
-                                    - Implementation of new procedures and development of playbooks for Latin America immigration processes.
-                                </p>
-                            </div>
-                        </div>
-                                    
-                        <div class="experience__content">
-                            <div class="experience__time">
-                                <span class="experience__rounder"></span>                                
-                            </div>
-
-                            <div class="experience__data bd-grid">
-                                <h3 class="experience__title"><b>Tealca</b> | Branch Manager</h3>
-                                <span class="experience__company">Venezuela | February 2008 - March 2014</span>
-                                <p class="experience__description">
-                                    <b><i>Logistics and Operations General Manager of a branch of this mail company in Venezuela. </i></b><br>
-                                    - Lead the entire logistics team and work with groups of operational and administrative staff. <br>
-                                    - Work with groups and staff across the whole franchise. <br>
-                                    - Develop strategies, set objectives and achieve goals considering short, mid and long term periods. <br>
-                                    - Supervise and participate in the entire logistic process along with our clients and our team members. <br>
-                                    - Establish and provide focused attention to our clients, in order to gain and build a solid business relationship and customer engagement. <br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
-                <!--======= SKILLS =======-->
-                <section class="skills section" id="skills">
-                    <h2 class="section-title">Skills & Knowledge</h2>
-
-                    <div class="skills__content bd-grid">
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Microsoft Office
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Excel, PowerBI, Tableau, SQL, Python
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>HTML/CSS/JavaScript
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Selenium, UIPath
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Postman
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Process Flow & Management Tools: Jira, Notion, Trello, Slack, Git, CodePen
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>ORACLE SAP-HR Module, Siebel & ServiceNow CRM Tools
-                            </li>
-                        </ul>
-
-                        <ul class="skills__data">
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Data Analytics
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Quality Assurance Testing
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Agile & Scrum Methodologies
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Strong Analytical skills
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Business Strategy & Planning
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>International Relocations & Mobility Processes
-                            </li>
-
-                            <li class="skills__name">
-                                <i class='bx bx-check' id="checkmark" style='color: rgb(30, 146, 224)'></i>Global Immigration Processing & Policies
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                
-                <!--======= HIGHLIGHTS & ACHIEVEMENTS =======-->
-                <section class="skills section" id="skills">
-                    <h2 class="section-title">Some Achievements & Highlights</h2>
-
-                    <div class="highlights__content bd-grid">
-                        <ul class="highlights__data">
-                            <li class="highlights__name">
-                                <h3 class="highlights__title">⭐ @JPMorgan Chase & Co.</h3>
-                                <p class="highlights__description">
-                                    I conducted the trainings for the new local team members in order to fully build the new Immigration Team in Buenos Aires, Argentina. <br>
-                                    I've also managed to optimize and tune-up the immigration processes and flowcharts oriented to improve connections and workflows between the IT, HR and Immigration teams. <br>
-                                </p>
-                            </li>
-
-                            <li class="highlights__name">
-                                <h3 class="highlights__title">⭐ @Globant</h3>
-                                <p class="highlights__description">
-                                    I built an oversimplified dashboard to visualize and measure the volume of candidates, joiners and termination cases for foreign national employees by 
-                                    work location, visa type, position, dependents, etc.
-                                </p>                                
-                            </li>
-
-                            <li class="highlights__name">
-                                <h3 class="highlights__title">⭐ @Accenture</h3>
-                                <p class="highlights__description" id="highlights-last">
-                                    I was involved and participated during the whole development, testing and deployment process of the Immigration management tool for the company. 
-                                    This tool was a great success and improvement for all the management, database, and proper tracking of each employee in terms of immigration, relocations and business trips.
-                                </p>
-                            </li>
-                            
-                        </ul>
-                    </div>       
-                </section>        
-            </div>            
-        </div>
-    </main>
-
-    <!--======= SCROLL TOP =======-->
-    <a href="#" class="scrolltop" id="scroll-top">
-        <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
-    </a>
-</body>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="js/core/modals.js"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
 </html>
-                                
