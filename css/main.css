@@ -5183,44 +5183,46 @@ Created using IcoMoon - icomoon.io
 /* ======================= MEDIA QUERY FOR DESKTOP COMPUTERS =========================== */
 
 @media screen and (min-device-width: 900px) {
-#education-card {
-  margin-right: -17.5rem;
-  padding-top: 2.5rem;
-}
-#highlights-card-body {
-  padding-left: 3rem;
-  margin-right: -12rem;
-}
-#highlights-card-body-2 {
-  padding-left: 3rem;
-  margin-right: -12rem;
-}
-#skills-card-body {
-  padding-left: 2rem;
-}
-.title {
-  text-align: left;
+  #job-position{
+    font-size: large;
+  }
+  #education-card {
+    margin-right: -17.5rem;
+    padding-top: 2.5rem;
+  }
+  #highlights-card-body {
+    padding-left: 3rem;
+    margin-right: -12rem;
+  }
+  #highlights-card-body-2 {
+    padding-left: 3rem;
+    margin-right: -12rem;
+  }
+  #skills-card-body {
+    padding-left: 2rem;
+  }
+  .title {
+    text-align: left;
+  }
+  .recognition-images {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  #manager-words {
+    margin-left: 2rem;
+    font-weight: bold;
+    color: #113050;
+  }
+  #about-title {
+    text-align: center;
+  }
+  .highlights-description {
+    font-size: large;
+  }
 }
 
-.recognition-images {
-  width: 100%;
-  margin-left: 1rem;
-}
-#manager-words {
-  margin-left: 2rem;
-  font-weight: bold;
-  color: #113050;
-}
-
-#about-title {
-  text-align: center;
-}
-
-.highlights-description {
-  font-size: large;
-}
-}
 /* ======================= MEDIA QUERY FOR DESKTOP COMPUTERS =========================== */
+
 .highlights-description {
   text-align: justify;
 }
