@@ -5219,6 +5219,9 @@ Created using IcoMoon - icomoon.io
   .highlights-description {
     font-size: large;
   }
+  #certificates-items:hover {
+    color: #00669c;
+    transition: 0.3s;
 }
 
 /* ======================= MEDIA QUERY FOR DESKTOP COMPUTERS =========================== */
