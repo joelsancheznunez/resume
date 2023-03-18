@@ -4373,6 +4373,7 @@ Created using IcoMoon - icomoon.io
   }
   #certificates-items:hover {
     color: #00669c;
+    font-size: 100.5%;
     transition: 0.3s;}
 }
 
@@ -4459,6 +4460,8 @@ a:hover {
     #myImg:hover, #myImg2:hover {
       cursor: pointer;
       border: #5bc0de solid 1px;
+      height: 365px;
+      width: 465px;
       box-shadow: 12px 15px 17px -6px rgba(54,54,54,0.75);
       -webkit-box-shadow: 12px 15px 17px -6px rgba(54,54,54,0.75);
       -moz-box-shadow: 12px 15px 17px -6px rgba(54,54,54,0.75);
