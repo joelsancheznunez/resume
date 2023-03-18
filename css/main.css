@@ -4374,7 +4374,9 @@ Created using IcoMoon - icomoon.io
   #certificates-items:hover {
     color: #00669c;
     font-size: 100.5%;
-    transition: 0.3s;}
+    transition: 0.3s;
+    text-shadow: 1.5px 1.5px 2.5px rgba(0,0,0,0.43);
+  }
 }
 
 /* ======================= MEDIA QUERY FOR DESKTOP COMPUTERS =========================== */
